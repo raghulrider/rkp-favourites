@@ -150,7 +150,7 @@
                     "poster": "https://images.metahub.space/poster/large/tt28679253/img",
                     "banner": "https://images.metahub.space/background/large/tt28679253/img",
                     "description": "A brave and skilled officer with a strong record of solving tough cases is assigned to a new, more challenging serial killing investigation.",
-                    "imdbRating": "7.4",
+                    "imdbRating": "7.5",
                     "releaseInfo": "2025",
                     "runtime": "2h 15m"
                 },
@@ -425,16 +425,6 @@
                     "runtime": "2h 19m"
                 },
                 {
-                    "name": "Narivetta",
-                    "id": "tt28479285",
-                    "poster": "https://images.metahub.space/poster/large/tt28479285/img",
-                    "banner": "https://images.metahub.space/background/large/tt28479285/img",
-                    "description": "A global examination of state-sanctioned violence through policing, exploring how power structures meant to protect citizens can transform into systems of control, particularly affecting marginalized communities.",
-                    "imdbRating": "6.5",
-                    "releaseInfo": "2025",
-                    "runtime": "2h 30m"
-                },
-                {
                     "name": "Akhanda 2",
                     "id": "tt15387182",
                     "poster": "https://images.metahub.space/poster/large/tt15387182/img",
@@ -443,6 +433,16 @@
                     "imdbRating": "6.9",
                     "releaseInfo": "2025",
                     "runtime": "2h 44m"
+                },
+                {
+                    "name": "Narivetta",
+                    "id": "tt28479285",
+                    "poster": "https://images.metahub.space/poster/large/tt28479285/img",
+                    "banner": "https://images.metahub.space/background/large/tt28479285/img",
+                    "description": "A global examination of state-sanctioned violence through policing, exploring how power structures meant to protect citizens can transform into systems of control, particularly affecting marginalized communities.",
+                    "imdbRating": "6.5",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 30m"
                 },
                 {
                     "name": "Thadai Athai Udai",
@@ -605,6 +605,16 @@
                     "runtime": "2h 20m"
                 },
                 {
+                    "name": "Eko",
+                    "id": "tt36616410",
+                    "poster": "https://images.metahub.space/poster/large/tt36616410/img",
+                    "banner": "https://images.metahub.space/background/large/tt36616410/img",
+                    "description": "In misty Kaattukunnu hills, an elderly woman and her caretaker confront past memories while a hunted dog breeder named Kuriyachan eludes capture. As searchers arrive, buried secrets emerge.",
+                    "imdbRating": "8.3",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 5m"
+                },
+                {
                     "name": "Nesippaya",
                     "id": "tt27190164",
                     "poster": "https://images.metahub.space/poster/large/tt27190164/img",
@@ -623,16 +633,6 @@
                     "imdbRating": "5.1",
                     "releaseInfo": "2025",
                     "runtime": "2h 13m"
-                },
-                {
-                    "name": "Eko",
-                    "id": "tt36616410",
-                    "poster": "https://images.metahub.space/poster/large/tt36616410/img",
-                    "banner": "https://images.metahub.space/background/large/tt36616410/img",
-                    "description": "In misty Kaattukunnu hills, an elderly woman and her caretaker confront past memories while a hunted dog breeder named Kuriyachan eludes capture. As searchers arrive, buried secrets emerge.",
-                    "imdbRating": "8.3",
-                    "releaseInfo": "2025",
-                    "runtime": "2h 5m"
                 },
                 {
                     "name": "Nilavuku Enmel Ennadi Kobam",
@@ -675,16 +675,6 @@
                     "runtime": "2h 30m"
                 },
                 {
-                    "name": "Balti",
-                    "id": "tt34942608",
-                    "poster": "https://images.metahub.space/poster/large/tt34942608/img",
-                    "banner": "https://images.metahub.space/background/large/tt34942608/img",
-                    "description": "In a border town where kabaddi reigns supreme, four champion players dominate both the sport and the streets. When personal rivalries and dangerous feuds emerge, their unbreakable brotherhood faces its greatest test.",
-                    "imdbRating": "6.6",
-                    "releaseInfo": "2025",
-                    "runtime": "2h 34m"
-                },
-                {
                     "name": "Aaromaley",
                     "id": "tt36587142",
                     "poster": "https://images.metahub.space/poster/large/tt36587142/img",
@@ -693,6 +683,16 @@
                     "imdbRating": "7.3",
                     "releaseInfo": "2025",
                     "runtime": "2h 8m"
+                },
+                {
+                    "name": "Balti",
+                    "id": "tt34942608",
+                    "poster": "https://images.metahub.space/poster/large/tt34942608/img",
+                    "banner": "https://images.metahub.space/background/large/tt34942608/img",
+                    "description": "In a border town where kabaddi reigns supreme, four champion players dominate both the sport and the streets. When personal rivalries and dangerous feuds emerge, their unbreakable brotherhood faces its greatest test.",
+                    "imdbRating": "6.6",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 34m"
                 },
                 {
                     "name": "Maine Pyar Kiya",
@@ -935,16 +935,6 @@
                     "runtime": "1h 51m"
                 },
                 {
-                    "name": "Accused",
-                    "id": "tt36092523",
-                    "poster": "https://images.metahub.space/poster/large/tt36092523/img",
-                    "banner": "https://images.metahub.space/background/large/tt36092523/img",
-                    "description": "Explores the idea that not everyone accused of a crime is guilty. Delves into how even good people can be affected by the errors in the system and turn gangsters.",
-                    "imdbRating": "8.7",
-                    "releaseInfo": "2025",
-                    "runtime": "2h 14m"
-                },
-                {
                     "name": "Diesel",
                     "id": "tt28252935",
                     "poster": "https://images.metahub.space/poster/large/tt28252935/img",
@@ -953,6 +943,16 @@
                     "imdbRating": "5.3",
                     "releaseInfo": "2025",
                     "runtime": "2h 24m"
+                },
+                {
+                    "name": "Accused",
+                    "id": "tt36092523",
+                    "poster": "https://images.metahub.space/poster/large/tt36092523/img",
+                    "banner": "https://images.metahub.space/background/large/tt36092523/img",
+                    "description": "Explores the idea that not everyone accused of a crime is guilty. Delves into how even good people can be affected by the errors in the system and turn gangsters.",
+                    "imdbRating": "8.7",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 14m"
                 },
                 {
                     "name": "Bhoghee",
@@ -1005,16 +1005,6 @@
                     "runtime": "2h"
                 },
                 {
-                    "name": "Janata Bar",
-                    "id": "tt26694732",
-                    "poster": "https://images.metahub.space/poster/large/tt26694732/img",
-                    "banner": "https://images.metahub.space/background/large/tt26694732/img",
-                    "description": "Follows a woman's revolutionary journey, sacrificing greatly in her pursuit of justice under the law.",
-                    "imdbRating": "8.5",
-                    "releaseInfo": "2025",
-                    "runtime": "2h 2m"
-                },
-                {
                     "name": "Stephen",
                     "id": "tt38681567",
                     "poster": "https://images.metahub.space/poster/large/tt38681567/img",
@@ -1023,6 +1013,16 @@
                     "imdbRating": "5.5",
                     "releaseInfo": "2025",
                     "runtime": "2h 3m"
+                },
+                {
+                    "name": "Janata Bar",
+                    "id": "tt26694732",
+                    "poster": "https://images.metahub.space/poster/large/tt26694732/img",
+                    "banner": "https://images.metahub.space/background/large/tt26694732/img",
+                    "description": "Follows a woman's revolutionary journey, sacrificing greatly in her pursuit of justice under the law.",
+                    "imdbRating": "8.5",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 2m"
                 },
                 {
                     "name": "Bad Girl",
@@ -1185,16 +1185,6 @@
                     "runtime": "2h 1m"
                 },
                 {
-                    "name": "Kuyili",
-                    "id": "tt37528759",
-                    "poster": "https://images.metahub.space/poster/large/tt37528759/img",
-                    "banner": "https://images.metahub.space/background/large/tt37528759/img",
-                    "description": "A grieving widow joins the Communist Party to battle corruption in her village, only to find herself at odds with her own son and targeted by powerful enemies.",
-                    "imdbRating": "8.2",
-                    "releaseInfo": "2025",
-                    "runtime": "1h 47m"
-                },
-                {
                     "name": "Revolver Rita",
                     "id": "tt26319590",
                     "poster": "https://images.metahub.space/poster/large/tt26319590/img",
@@ -1203,6 +1193,16 @@
                     "imdbRating": "5.7",
                     "releaseInfo": "2025",
                     "runtime": "2h 23m"
+                },
+                {
+                    "name": "Kuyili",
+                    "id": "tt37528759",
+                    "poster": "https://images.metahub.space/poster/large/tt37528759/img",
+                    "banner": "https://images.metahub.space/background/large/tt37528759/img",
+                    "description": "A grieving widow joins the Communist Party to battle corruption in her village, only to find herself at odds with her own son and targeted by powerful enemies.",
+                    "imdbRating": "8.2",
+                    "releaseInfo": "2025",
+                    "runtime": "1h 47m"
                 },
                 {
                     "name": "Others",
@@ -1300,7 +1300,7 @@
                     "poster": "https://images.metahub.space/poster/large/tt32012416/img",
                     "banner": "https://images.metahub.space/background/large/tt32012416/img",
                     "description": "Tamil-language action thriller in which a case of mistaken identity leads to violent consequences.",
-                    "imdbRating": "8.2",
+                    "imdbRating": "8.1",
                     "releaseInfo": "2025",
                     "runtime": "1h 53m"
                 },
@@ -1315,16 +1315,6 @@
                     "runtime": "2h 16m"
                 },
                 {
-                    "name": "Gandhi Kannadi",
-                    "id": "tt36595755",
-                    "poster": "https://images.metahub.space/poster/large/tt36595755/img",
-                    "banner": "https://images.metahub.space/background/large/tt36595755/img",
-                    "description": "An event planner's life changes when he helps an elderly man plan his 60th wedding anniversary, leading to an unexpected journey of shared dreams and emotional connections.",
-                    "imdbRating": "6.5",
-                    "releaseInfo": "2025",
-                    "runtime": "2h 9m"
-                },
-                {
                     "name": "Mark",
                     "id": "tt28961625",
                     "poster": "https://images.metahub.space/poster/large/tt28961625/img",
@@ -1333,6 +1323,16 @@
                     "imdbRating": "7.1",
                     "releaseInfo": "2025",
                     "runtime": "2h 24m"
+                },
+                {
+                    "name": "Gandhi Kannadi",
+                    "id": "tt36595755",
+                    "poster": "https://images.metahub.space/poster/large/tt36595755/img",
+                    "banner": "https://images.metahub.space/background/large/tt36595755/img",
+                    "description": "An event planner's life changes when he helps an elderly man plan his 60th wedding anniversary, leading to an unexpected journey of shared dreams and emotional connections.",
+                    "imdbRating": "6.5",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 9m"
                 },
                 {
                     "name": "Nellikkampoyil Night Riders",
@@ -1415,6 +1415,16 @@
                     "runtime": "2h 45m"
                 },
                 {
+                    "name": "Cristina Kathirvelan",
+                    "id": "tt36505217",
+                    "poster": "https://images.metahub.space/poster/large/tt36505217/img",
+                    "banner": "https://images.metahub.space/background/large/tt36505217/img",
+                    "description": "In 2012, college student Kathirvelan's love story turns tragic when their documents are misused, falsely marrying him to Christina. As she's set to wed another, the truth emerges, creating chaos in their lives.",
+                    "imdbRating": "8.3",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 15m"
+                },
+                {
                     "name": "Manidhargal",
                     "id": "tt36784178",
                     "poster": "https://images.metahub.space/poster/large/tt36784178/img",
@@ -1423,16 +1433,6 @@
                     "imdbRating": "6.9",
                     "releaseInfo": "2025",
                     "runtime": "2h 6m"
-                },
-                {
-                    "name": "Cristina Kathirvelan",
-                    "id": "tt36505217",
-                    "poster": "https://images.metahub.space/poster/large/tt36505217/img",
-                    "banner": "https://images.metahub.space/background/large/tt36505217/img",
-                    "description": "In 2012, college student Kathirvelan's love story turns tragic when their documents are misused, falsely marrying him to Christina. As she's set to wed another, the truth emerges, creating chaos in their lives.",
-                    "imdbRating": "8.1",
-                    "releaseInfo": "2025",
-                    "runtime": "2h 15m"
                 },
                 {
                     "name": "Maayakoothu",
@@ -1470,7 +1470,7 @@
                     "poster": "https://images.metahub.space/poster/large/tt38798360/img",
                     "banner": "https://images.metahub.space/background/large/tt38798360/img",
                     "description": "A corporate worker's impulsive decision to leave her desk job leads to a transformative solo adventure, where strangers become friends and comfort zones fade into distant memories.",
-                    "imdbRating": "7.4",
+                    "imdbRating": "7.5",
                     "releaseInfo": "2025",
                     "runtime": "2h 16m"
                 },
@@ -1565,6 +1565,16 @@
                     "runtime": "2h 27m"
                 },
                 {
+                    "name": "Sirai",
+                    "id": "tt35684868",
+                    "poster": "https://images.metahub.space/poster/large/tt35684868/img",
+                    "banner": "https://images.metahub.space/background/large/tt35684868/img",
+                    "description": "A cop escorts a prisoner during a transfer from Vellore prison to Sivagangai court, leading to unexpected interactions between them.",
+                    "imdbRating": "8.4",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 4m"
+                },
+                {
                     "name": "Varunan",
                     "id": "tt35162941",
                     "poster": "https://images.metahub.space/poster/large/tt35162941/img",
@@ -1585,16 +1595,6 @@
                     "runtime": "2h 2m"
                 },
                 {
-                    "name": "Sirai",
-                    "id": "tt35684868",
-                    "poster": "https://images.metahub.space/poster/large/tt35684868/img",
-                    "banner": "https://images.metahub.space/background/large/tt35684868/img",
-                    "description": "A cop escorts a prisoner during a transfer from Vellore prison to Sivagangai court, leading to unexpected interactions between them.",
-                    "imdbRating": "8.4",
-                    "releaseInfo": "2025",
-                    "runtime": "2h 4m"
-                },
-                {
                     "name": "Gevi",
                     "id": "tt37594308",
                     "poster": "https://images.metahub.space/poster/large/tt37594308/img",
@@ -1610,7 +1610,7 @@
                     "poster": "https://images.metahub.space/poster/large/tt33269301/img",
                     "banner": "https://images.metahub.space/background/large/tt33269301/img",
                     "description": "Two men with explosive expertise and dangerous histories dedicate themselves to protecting their village.",
-                    "imdbRating": "9.5",
+                    "imdbRating": "9.1",
                     "releaseInfo": "2025",
                     "runtime": "2h 19m"
                 },
@@ -1660,7 +1660,7 @@
                     "poster": "https://images.metahub.space/poster/large/tt36414924/img",
                     "banner": "https://images.metahub.space/background/large/tt36414924/img",
                     "description": "A bold fighter for justice challenges a merciless empire, sparking a wave of resistance and retribution.",
-                    "imdbRating": "6.4",
+                    "imdbRating": "6.5",
                     "releaseInfo": "2025",
                     "runtime": "2h 37m"
                 },
@@ -1885,6 +1885,16 @@
                     "runtime": "1h 53m"
                 },
                 {
+                    "name": "Unpaarvayil",
+                    "id": "tt15176374",
+                    "poster": "https://images.metahub.space/poster/large/tt15176374/img",
+                    "banner": "https://images.metahub.space/background/large/tt15176374/img",
+                    "description": "When tragedy strikes twice,Bhavya refuses to remain a victim.Visually impaired,she is drawn into a perilous hunt for truth behind the mysterious deaths of her husband and twin sister-uncovering a dark world where nothing is as it seems.",
+                    "imdbRating": "8.5",
+                    "releaseInfo": "2025",
+                    "runtime": "1h 57m"
+                },
+                {
                     "name": "Maadan Kodai Vizha",
                     "id": "tt35869237",
                     "poster": "https://images.metahub.space/poster/large/tt35869237/img",
@@ -1893,16 +1903,6 @@
                     "imdbRating": "8.1",
                     "releaseInfo": "2025",
                     "runtime": "2h 7m"
-                },
-                {
-                    "name": "Unpaarvayil",
-                    "id": "tt15176374",
-                    "poster": "https://images.metahub.space/poster/large/tt15176374/img",
-                    "banner": "https://images.metahub.space/background/large/tt15176374/img",
-                    "description": "When tragedy strikes twice,Bhavya refuses to remain a victim.Visually impaired,she is drawn into a perilous hunt for truth behind the mysterious deaths of her husband and twin sister-uncovering a dark world where nothing is as it seems.",
-                    "imdbRating": "8.7",
-                    "releaseInfo": "2025",
-                    "runtime": "1h 57m"
                 },
                 {
                     "name": "Myyal",
@@ -2150,7 +2150,7 @@
                     "poster": "https://images.metahub.space/poster/large/tt38896266/img",
                     "banner": "https://images.metahub.space/background/large/tt38896266/img",
                     "description": "This is a heartwarming story about four young boys who embark on an epic adventure toward their mythical \"Dreaming Well.\" The film focuses entirely on the theme of pure childhood nostalgia and the unbreakable bonds of youth.",
-                    "imdbRating": "7.5",
+                    "imdbRating": "7.6",
                     "releaseInfo": "2025",
                     "runtime": "1h 48m"
                 },
@@ -2283,6 +2283,152 @@
                     "imdbRating": "8.6",
                     "releaseInfo": "2025",
                     "runtime": "2h 12m"
+                }
+            ]
+        },
+        {
+            "catalog_name": "popular_series",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "The Hunt: The Rajiv Gandhi Assassination Case",
+                    "id": "tt37365626",
+                    "poster": "https://images.metahub.space/poster/large/tt37365626/img",
+                    "banner": "https://images.metahub.space/background/large/tt37365626/img",
+                    "description": "In 1991, Rajiv Gandhi was killed by a suicide bomber at a campaign rally. A 90-day investigation revealed LTTE involvement, leading to arrests and convictions of conspirators.",
+                    "imdbRating": "7.9",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Mayasabha",
+                    "id": "tt36600023",
+                    "poster": "https://images.metahub.space/poster/large/tt36600023/img",
+                    "banner": "https://images.metahub.space/background/large/tt36600023/img",
+                    "description": "Two rival politicians from different backgrounds rise through Andhra Pradesh's power structure in the 1970s-80s. KKN and MSR navigate caste politics and personal ambition during a pivotal era in Indian history.",
+                    "imdbRating": "9.1",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Kuttram Purindhavan",
+                    "id": "tt38568136",
+                    "poster": "https://images.metahub.space/poster/large/tt38568136/img",
+                    "banner": "https://images.metahub.space/background/large/tt38568136/img",
+                    "description": "When a girl vanishes in a small town, a retiring pharmacist, the child's mother, and a local cop become entangled in a web of secrets and guilt as they search for answers and confront hidden truths.",
+                    "imdbRating": "7.8",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Arabia Kadali",
+                    "id": "tt31925699",
+                    "poster": "https://images.metahub.space/poster/large/tt31925699/img",
+                    "banner": "https://images.metahub.space/background/large/tt31925699/img",
+                    "description": "A group of fishermen from rival villages who inadvertently trespass into international waters and find themselves imprisoned in a foreign jail.",
+                    "imdbRating": "6.2",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "The Chronicles of the 4.5 Gang",
+                    "id": "tt30218223",
+                    "poster": "https://images.metahub.space/poster/large/tt30218223/img",
+                    "banner": "https://images.metahub.space/background/large/tt30218223/img",
+                    "description": "The five protagonists, one among them being a dwarf hailing from a slum, as they venture into the flower mafia around temples and other odd businesses to gain the respect of the public.",
+                    "imdbRating": "7.3",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Sattamum Needhiyum",
+                    "id": "tt37539312",
+                    "poster": "https://images.metahub.space/poster/large/tt37539312/img",
+                    "banner": "https://images.metahub.space/background/large/tt37539312/img",
+                    "description": "A courtroom drama set in the bustling world of justice, where power and privilege dominate, the series narrates the transformative journey of Sundaramoorthy.",
+                    "imdbRating": "6.5",
+                    "releaseInfo": "2025",
+                    "runtime": null
+                },
+                {
+                    "name": "Good Wife",
+                    "id": "tt33702419",
+                    "poster": "https://images.metahub.space/poster/large/tt33702419/img",
+                    "banner": "https://images.metahub.space/background/large/tt33702419/img",
+                    "description": "When scandal strikes her family, former lawyer and current housewife Tarunika must protect her loved ones from society's judgment.",
+                    "imdbRating": "5.1",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Office",
+                    "id": "tt35657767",
+                    "poster": "https://images.metahub.space/poster/large/tt35657767/img",
+                    "banner": "https://images.metahub.space/background/large/tt35657767/img",
+                    "description": "In a rural Tahsildar's office, a computer engineer named Paari is mistakenly welcomed as the new collector, leading to a series of comedic misunderstandings and romantic tensions with his ex-colleague Indu.",
+                    "imdbRating": "8.8",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Police Police",
+                    "id": "tt37803840",
+                    "poster": "https://images.metahub.space/poster/large/tt37803840/img",
+                    "banner": "https://images.metahub.space/background/large/tt37803840/img",
+                    "description": "A police officer secretly recruits a criminal to join the force. Their illegal scheme hangs in the balance.",
+                    "imdbRating": "7.5",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Om Kali Jai Kali",
+                    "id": "tt35952274",
+                    "poster": "https://images.metahub.space/poster/large/tt35952274/img",
+                    "banner": "https://images.metahub.space/background/large/tt35952274/img",
+                    "description": "A man involved in an MLA candidate's murder faces pursuit by vengeful hunters after receiving a woman's warning.",
+                    "imdbRating": "5.5",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Regai",
+                    "id": "tt38984146",
+                    "poster": "https://images.metahub.space/poster/large/tt38984146/img",
+                    "banner": "https://images.metahub.space/background/large/tt38984146/img",
+                    "description": "Sub-Inspector Vetri uncovers a sinister plot by a medical team attempting to cover up the deaths of young participants in a clinical trial by disguising them as accidents.",
+                    "imdbRating": "6.6",
+                    "releaseInfo": "2025",
+                    "runtime": null
+                },
+                {
+                    "name": "Ayyanar Thunai",
+                    "id": "tt36734155",
+                    "poster": "https://images.metahub.space/poster/large/tt36734155/img",
+                    "banner": "https://images.metahub.space/background/large/tt36734155/img",
+                    "description": "In a bid to escape her ill-fate, Nila becomes the daughter-in-law of a family with a tainted past. Can she restore their lost hope, or will it shatter hers?",
+                    "imdbRating": "6.3",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Dhoolpet Police Station",
+                    "id": "tt39028469",
+                    "poster": "https://images.metahub.space/poster/large/tt39028469/img",
+                    "banner": "https://images.metahub.space/background/large/tt39028469/img",
+                    "description": "Set in the volatile area of Dhoolpet, this crime thriller follows a deadly trail of decapitation murders during a vibrant festival, pushing cops into a high-stakes chase where every clue is soaked in danger.",
+                    "imdbRating": "6.7",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Heartiley Battery",
+                    "id": "tt39100726",
+                    "poster": "https://images.metahub.space/poster/large/tt39100726/img",
+                    "banner": "https://images.metahub.space/background/large/tt39100726/img",
+                    "description": "Sofia, a brilliant but emotionally guarded scientist, believes love is nothing more than biology. After witnessing her parents' relationship fall apart, she invents a device called the Love Meter to prove that true love can be measured.",
+                    "imdbRating": "8.5",
+                    "releaseInfo": "2025",
+                    "runtime": null
                 }
             ]
         },
@@ -2456,7 +2602,7 @@
                     "poster": "https://images.metahub.space/poster/large/tt28679253/img",
                     "banner": "https://images.metahub.space/background/large/tt28679253/img",
                     "description": "A brave and skilled officer with a strong record of solving tough cases is assigned to a new, more challenging serial killing investigation.",
-                    "imdbRating": "7.4",
+                    "imdbRating": "7.5",
                     "releaseInfo": "2025",
                     "runtime": "2h 15m"
                 },
@@ -2549,6 +2695,42 @@
                     "imdbRating": "7.1",
                     "releaseInfo": "2025",
                     "runtime": "2h 37m"
+                }
+            ]
+        },
+        {
+            "catalog_name": "top_rated_series",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "Mayasabha",
+                    "id": "tt36600023",
+                    "poster": "https://images.metahub.space/poster/large/tt36600023/img",
+                    "banner": "https://images.metahub.space/background/large/tt36600023/img",
+                    "description": "Two rival politicians from different backgrounds rise through Andhra Pradesh's power structure in the 1970s-80s. KKN and MSR navigate caste politics and personal ambition during a pivotal era in Indian history.",
+                    "imdbRating": "9.1",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "The Hunt: The Rajiv Gandhi Assassination Case",
+                    "id": "tt37365626",
+                    "poster": "https://images.metahub.space/poster/large/tt37365626/img",
+                    "banner": "https://images.metahub.space/background/large/tt37365626/img",
+                    "description": "In 1991, Rajiv Gandhi was killed by a suicide bomber at a campaign rally. A 90-day investigation revealed LTTE involvement, leading to arrests and convictions of conspirators.",
+                    "imdbRating": "7.9",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Kuttram Purindhavan",
+                    "id": "tt38568136",
+                    "poster": "https://images.metahub.space/poster/large/tt38568136/img",
+                    "banner": "https://images.metahub.space/background/large/tt38568136/img",
+                    "description": "When a girl vanishes in a small town, a retiring pharmacist, the child's mother, and a local cop become entangled in a web of secrets and guilt as they search for answers and confront hidden truths.",
+                    "imdbRating": "7.8",
+                    "releaseInfo": null,
+                    "runtime": null
                 }
             ]
         },
@@ -3537,16 +3719,6 @@
                     "runtime": "2h 40m"
                 },
                 {
-                    "name": "Singam 3",
-                    "id": "tt5323640",
-                    "poster": "https://images.metahub.space/poster/large/tt5323640/img",
-                    "banner": "https://images.metahub.space/background/large/tt5323640/img",
-                    "description": "Uncompromising police chief Durai Singam battles against a criminal operation dealing in deadly toxic waste.",
-                    "imdbRating": "6.0",
-                    "releaseInfo": "2017",
-                    "runtime": "2h 35m"
-                },
-                {
                     "name": "Dude",
                     "id": "tt36388163",
                     "poster": "https://images.metahub.space/poster/large/tt36388163/img",
@@ -3555,6 +3727,16 @@
                     "imdbRating": "6.2",
                     "releaseInfo": "2025",
                     "runtime": "2h 20m"
+                },
+                {
+                    "name": "Singam 3",
+                    "id": "tt5323640",
+                    "poster": "https://images.metahub.space/poster/large/tt5323640/img",
+                    "banner": "https://images.metahub.space/background/large/tt5323640/img",
+                    "description": "Uncompromising police chief Durai Singam battles against a criminal operation dealing in deadly toxic waste.",
+                    "imdbRating": "6.0",
+                    "releaseInfo": "2017",
+                    "runtime": "2h 35m"
                 },
                 {
                     "name": "Veera Dheera Sooran",
@@ -4057,16 +4239,6 @@
                     "runtime": "2h 16m"
                 },
                 {
-                    "name": "Narivetta",
-                    "id": "tt28479285",
-                    "poster": "https://images.metahub.space/poster/large/tt28479285/img",
-                    "banner": "https://images.metahub.space/background/large/tt28479285/img",
-                    "description": "A global examination of state-sanctioned violence through policing, exploring how power structures meant to protect citizens can transform into systems of control, particularly affecting marginalized communities.",
-                    "imdbRating": "6.5",
-                    "releaseInfo": "2025",
-                    "runtime": "2h 30m"
-                },
-                {
                     "name": "Akhanda 2",
                     "id": "tt15387182",
                     "poster": "https://images.metahub.space/poster/large/tt15387182/img",
@@ -4075,6 +4247,16 @@
                     "imdbRating": "6.9",
                     "releaseInfo": "2025",
                     "runtime": "2h 44m"
+                },
+                {
+                    "name": "Narivetta",
+                    "id": "tt28479285",
+                    "poster": "https://images.metahub.space/poster/large/tt28479285/img",
+                    "banner": "https://images.metahub.space/background/large/tt28479285/img",
+                    "description": "A global examination of state-sanctioned violence through policing, exploring how power structures meant to protect citizens can transform into systems of control, particularly affecting marginalized communities.",
+                    "imdbRating": "6.5",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 30m"
                 },
                 {
                     "name": "Velaiilla Pattadhari 2",
@@ -4387,16 +4569,6 @@
                     "runtime": "2h 20m"
                 },
                 {
-                    "name": "Kotigobba 3",
-                    "id": "tt8108186",
-                    "poster": "https://images.metahub.space/poster/large/tt8108186/img",
-                    "banner": "https://images.metahub.space/background/large/tt8108186/img",
-                    "description": "Sathya, a philanthropist who now runs an orphanage, has to go to Poland for the treatment of young Janu. While there, an international criminal named Ghost carries out heists. Who is Ghost? And what has Sathya got to do with it all?",
-                    "imdbRating": "5.5",
-                    "releaseInfo": "2021",
-                    "runtime": "2h 20m"
-                },
-                {
                     "name": "Aaryan",
                     "id": "tt28434143",
                     "poster": "https://images.metahub.space/poster/large/tt28434143/img",
@@ -4405,6 +4577,16 @@
                     "imdbRating": "6.3",
                     "releaseInfo": "2025",
                     "runtime": "2h 14m"
+                },
+                {
+                    "name": "Kotigobba 3",
+                    "id": "tt8108186",
+                    "poster": "https://images.metahub.space/poster/large/tt8108186/img",
+                    "banner": "https://images.metahub.space/background/large/tt8108186/img",
+                    "description": "Sathya, a philanthropist who now runs an orphanage, has to go to Poland for the treatment of young Janu. While there, an international criminal named Ghost carries out heists. Who is Ghost? And what has Sathya got to do with it all?",
+                    "imdbRating": "5.5",
+                    "releaseInfo": "2021",
+                    "runtime": "2h 20m"
                 },
                 {
                     "name": "Kanchana: Muni 2",
@@ -6402,7 +6584,7 @@
                     "poster": "https://images.metahub.space/poster/large/tt28679253/img",
                     "banner": "https://images.metahub.space/background/large/tt28679253/img",
                     "description": "A brave and skilled officer with a strong record of solving tough cases is assigned to a new, more challenging serial killing investigation.",
-                    "imdbRating": "7.4",
+                    "imdbRating": "7.5",
                     "releaseInfo": "2025",
                     "runtime": "2h 15m"
                 },
@@ -7463,16 +7645,6 @@
                     "runtime": "2h 43m"
                 },
                 {
-                    "name": "Peranbu",
-                    "id": "tt7738784",
-                    "poster": "https://images.metahub.space/poster/large/tt7738784/img",
-                    "banner": "https://images.metahub.space/background/large/tt7738784/img",
-                    "description": "A single father tries to raise his daughter, who has cerebral palsy, even as she is beginning to wake up to her sexuality.",
-                    "imdbRating": "8.7",
-                    "releaseInfo": "2018",
-                    "runtime": "2h 27m"
-                },
-                {
                     "name": "Dhuruvangal Pathinaaru",
                     "id": "tt6380520",
                     "poster": "https://images.metahub.space/poster/large/tt6380520/img",
@@ -7481,6 +7653,16 @@
                     "imdbRating": "8.2",
                     "releaseInfo": "2016",
                     "runtime": "1h 45m"
+                },
+                {
+                    "name": "Peranbu",
+                    "id": "tt7738784",
+                    "poster": "https://images.metahub.space/poster/large/tt7738784/img",
+                    "banner": "https://images.metahub.space/background/large/tt7738784/img",
+                    "description": "A single father tries to raise his daughter, who has cerebral palsy, even as she is beginning to wake up to her sexuality.",
+                    "imdbRating": "8.7",
+                    "releaseInfo": "2018",
+                    "runtime": "2h 27m"
                 },
                 {
                     "name": "Thiruchitrambalam",
@@ -8043,16 +8225,6 @@
                     "runtime": "1h 42m"
                 },
                 {
-                    "name": "Lubber Pandhu",
-                    "id": "tt27007466",
-                    "poster": "https://images.metahub.space/poster/large/tt27007466/img",
-                    "banner": "https://images.metahub.space/background/large/tt27007466/img",
-                    "description": "Set against the rural backdrop, explores gully cricket stars Gethu and Anbu's intense rivalry. Anbu's romantic involvement with Gethu's daughter escalates the clash. Their skills and emotions are put to the ultimate test.",
-                    "imdbRating": "8.1",
-                    "releaseInfo": "2024",
-                    "runtime": "2h 26m"
-                },
-                {
                     "name": "The Girlfriend",
                     "id": "tt29606526",
                     "poster": "https://images.metahub.space/poster/large/tt29606526/img",
@@ -8061,6 +8233,16 @@
                     "imdbRating": "6.7",
                     "releaseInfo": "2025",
                     "runtime": "2h 18m"
+                },
+                {
+                    "name": "Lubber Pandhu",
+                    "id": "tt27007466",
+                    "poster": "https://images.metahub.space/poster/large/tt27007466/img",
+                    "banner": "https://images.metahub.space/background/large/tt27007466/img",
+                    "description": "Set against the rural backdrop, explores gully cricket stars Gethu and Anbu's intense rivalry. Anbu's romantic involvement with Gethu's daughter escalates the clash. Their skills and emotions are put to the ultimate test.",
+                    "imdbRating": "8.1",
+                    "releaseInfo": "2024",
+                    "runtime": "2h 26m"
                 },
                 {
                     "name": "Vendhu Thanindhathu Kaadu",
@@ -8163,16 +8345,6 @@
                     "runtime": "2h 40m"
                 },
                 {
-                    "name": "Singam 3",
-                    "id": "tt5323640",
-                    "poster": "https://images.metahub.space/poster/large/tt5323640/img",
-                    "banner": "https://images.metahub.space/background/large/tt5323640/img",
-                    "description": "Uncompromising police chief Durai Singam battles against a criminal operation dealing in deadly toxic waste.",
-                    "imdbRating": "6.0",
-                    "releaseInfo": "2017",
-                    "runtime": "2h 35m"
-                },
-                {
                     "name": "Dude",
                     "id": "tt36388163",
                     "poster": "https://images.metahub.space/poster/large/tt36388163/img",
@@ -8181,6 +8353,16 @@
                     "imdbRating": "6.2",
                     "releaseInfo": "2025",
                     "runtime": "2h 20m"
+                },
+                {
+                    "name": "Singam 3",
+                    "id": "tt5323640",
+                    "poster": "https://images.metahub.space/poster/large/tt5323640/img",
+                    "banner": "https://images.metahub.space/background/large/tt5323640/img",
+                    "description": "Uncompromising police chief Durai Singam battles against a criminal operation dealing in deadly toxic waste.",
+                    "imdbRating": "6.0",
+                    "releaseInfo": "2017",
+                    "runtime": "2h 35m"
                 },
                 {
                     "name": "Dada",
@@ -8323,16 +8505,6 @@
                     "runtime": "2h 40m"
                 },
                 {
-                    "name": "Mark Antony",
-                    "id": "tt23052532",
-                    "poster": "https://images.metahub.space/poster/large/tt23052532/img",
-                    "banner": "https://images.metahub.space/background/large/tt23052532/img",
-                    "description": "Mark, the son of gangster Antony, finds a telephone that has the ability to contact the past.",
-                    "imdbRating": "6.6",
-                    "releaseInfo": "2023",
-                    "runtime": "2h 30m"
-                },
-                {
                     "name": "Bison Kaalamaadan",
                     "id": "tt15097358",
                     "poster": "https://images.metahub.space/poster/large/tt15097358/img",
@@ -8340,6 +8512,16 @@
                     "description": "A young man fights to overcome violence plaguing his village and succeed as a professional kabaddi player.",
                     "imdbRating": "7.8",
                     "releaseInfo": "2025",
+                    "runtime": "2h 30m"
+                },
+                {
+                    "name": "Mark Antony",
+                    "id": "tt23052532",
+                    "poster": "https://images.metahub.space/poster/large/tt23052532/img",
+                    "banner": "https://images.metahub.space/background/large/tt23052532/img",
+                    "description": "Mark, the son of gangster Antony, finds a telephone that has the ability to contact the past.",
+                    "imdbRating": "6.6",
+                    "releaseInfo": "2023",
                     "runtime": "2h 30m"
                 },
                 {
@@ -9133,16 +9315,6 @@
                     "runtime": "2h 34m"
                 },
                 {
-                    "name": "Naan Mahaan Alla",
-                    "id": "tt1507005",
-                    "poster": "https://images.metahub.space/poster/large/tt1507005/img",
-                    "banner": "https://images.metahub.space/background/large/tt1507005/img",
-                    "description": "A playful young man leads a very happy life, but everything changes when his father witnesses a heinous crime.",
-                    "imdbRating": "7.2",
-                    "releaseInfo": "2010",
-                    "runtime": "2h 12m"
-                },
-                {
                     "name": "Hridayapoorvam",
                     "id": "tt30818546",
                     "poster": "https://images.metahub.space/poster/large/tt30818546/img",
@@ -9151,6 +9323,16 @@
                     "imdbRating": "6.7",
                     "releaseInfo": "2025",
                     "runtime": "2h 32m"
+                },
+                {
+                    "name": "Naan Mahaan Alla",
+                    "id": "tt1507005",
+                    "poster": "https://images.metahub.space/poster/large/tt1507005/img",
+                    "banner": "https://images.metahub.space/background/large/tt1507005/img",
+                    "description": "A playful young man leads a very happy life, but everything changes when his father witnesses a heinous crime.",
+                    "imdbRating": "7.2",
+                    "releaseInfo": "2010",
+                    "runtime": "2h 12m"
                 },
                 {
                     "name": "Plan B",
@@ -9613,16 +9795,6 @@
                     "runtime": "2h 6m"
                 },
                 {
-                    "name": "Vaanam",
-                    "id": "tt1712057",
-                    "poster": "https://images.metahub.space/poster/large/tt1712057/img",
-                    "banner": "https://images.metahub.space/background/large/tt1712057/img",
-                    "description": "The lives of five individuals living in different places converge at a point, resulting in the transformation of their persona and purpose.",
-                    "imdbRating": "7.4",
-                    "releaseInfo": "2011",
-                    "runtime": "2h 20m"
-                },
-                {
                     "name": "Nilavuku Enmel Ennadi Kobam",
                     "id": "tt30590474",
                     "poster": "https://images.metahub.space/poster/large/tt30590474/img",
@@ -9631,6 +9803,16 @@
                     "imdbRating": "5.8",
                     "releaseInfo": "2025",
                     "runtime": "2h 16m"
+                },
+                {
+                    "name": "Vaanam",
+                    "id": "tt1712057",
+                    "poster": "https://images.metahub.space/poster/large/tt1712057/img",
+                    "banner": "https://images.metahub.space/background/large/tt1712057/img",
+                    "description": "The lives of five individuals living in different places converge at a point, resulting in the transformation of their persona and purpose.",
+                    "imdbRating": "7.4",
+                    "releaseInfo": "2011",
+                    "runtime": "2h 20m"
                 },
                 {
                     "name": "KD",
@@ -10680,7 +10862,7 @@
                     "poster": "https://images.metahub.space/poster/large/tt28679253/img",
                     "banner": "https://images.metahub.space/background/large/tt28679253/img",
                     "description": "A brave and skilled officer with a strong record of solving tough cases is assigned to a new, more challenging serial killing investigation.",
-                    "imdbRating": "7.4",
+                    "imdbRating": "7.5",
                     "releaseInfo": "2025",
                     "runtime": "2h 15m"
                 },
@@ -12644,7 +12826,7 @@
                     "poster": "https://images.metahub.space/poster/large/tt28679253/img",
                     "banner": "https://images.metahub.space/background/large/tt28679253/img",
                     "description": "A brave and skilled officer with a strong record of solving tough cases is assigned to a new, more challenging serial killing investigation.",
-                    "imdbRating": "7.4",
+                    "imdbRating": "7.5",
                     "releaseInfo": "2025",
                     "runtime": "2h 15m"
                 },
@@ -12849,16 +13031,6 @@
                     "runtime": "2h 30m"
                 },
                 {
-                    "name": "Darbar",
-                    "id": "tt9635540",
-                    "poster": "https://images.metahub.space/poster/large/tt9635540/img",
-                    "banner": "https://images.metahub.space/background/large/tt9635540/img",
-                    "description": "A police officer is on a chase to hunt down a dreaded gangster to fulfill his own secret agenda.",
-                    "imdbRating": "5.9",
-                    "releaseInfo": "2020",
-                    "runtime": "2h 39m"
-                },
-                {
                     "name": "Kaantha",
                     "id": "tt28508934",
                     "poster": "https://images.metahub.space/poster/large/tt28508934/img",
@@ -12867,6 +13039,16 @@
                     "imdbRating": "7.5",
                     "releaseInfo": "2025",
                     "runtime": "2h 30m"
+                },
+                {
+                    "name": "Darbar",
+                    "id": "tt9635540",
+                    "poster": "https://images.metahub.space/poster/large/tt9635540/img",
+                    "banner": "https://images.metahub.space/background/large/tt9635540/img",
+                    "description": "A police officer is on a chase to hunt down a dreaded gangster to fulfill his own secret agenda.",
+                    "imdbRating": "5.9",
+                    "releaseInfo": "2020",
+                    "runtime": "2h 39m"
                 },
                 {
                     "name": "Singam 2",
@@ -14017,6 +14199,1104 @@
             ]
         },
         {
+            "catalog_name": "series_by_action",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "Tamilrockerz",
+                    "id": "tt21211254",
+                    "poster": "https://images.metahub.space/poster/large/tt21211254/img",
+                    "banner": "https://images.metahub.space/background/large/tt21211254/img",
+                    "description": "Anonymous cyber pirates are threatening to release a highly anticipated film featuring a massively popular star. It's up to the cop Rudra to find the lawbreakers and bring them to justice.",
+                    "imdbRating": "6.6",
+                    "releaseInfo": null,
+                    "runtime": null
+                }
+            ]
+        },
+        {
+            "catalog_name": "series_by_adventure",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "Aindham Vedham",
+                    "id": "tt33983792",
+                    "poster": "https://images.metahub.space/poster/large/tt33983792/img",
+                    "banner": "https://images.metahub.space/background/large/tt33983792/img",
+                    "description": "Whilst in Varanasi for her mother's last rites, Anu is entrusted with an ancient relic by a stranger, destined for a Tamil Nadu priest, which may unveil the secrets of the elusive Fifth Veda.",
+                    "imdbRating": "7.2",
+                    "releaseInfo": null,
+                    "runtime": null
+                }
+            ]
+        },
+        {
+            "catalog_name": "series_by_biography",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "Queen",
+                    "id": "tt11393148",
+                    "poster": "https://images.metahub.space/poster/large/tt11393148/img",
+                    "banner": "https://images.metahub.space/background/large/tt11393148/img",
+                    "description": "The Queen is a story of a woman in the male-driven worlds of Cinema and Tamil Nadu politics. It is a story of a woman who didn't get the happy ending she wanted and yet, was destiny's chosen child.",
+                    "imdbRating": "7.7",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "The Hunt for Veerappan",
+                    "id": "tt28306965",
+                    "poster": "https://images.metahub.space/poster/large/tt28306965/img",
+                    "banner": "https://images.metahub.space/background/large/tt28306965/img",
+                    "description": "A poacher who conquered the jungles of South India and became the subject of the biggest manhunt of India.",
+                    "imdbRating": "7.9",
+                    "releaseInfo": "2023",
+                    "runtime": null
+                }
+            ]
+        },
+        {
+            "catalog_name": "series_by_comedy",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "Modern Love Chennai",
+                    "id": "tt21883062",
+                    "poster": "https://images.metahub.space/poster/large/tt21883062/img",
+                    "banner": "https://images.metahub.space/background/large/tt21883062/img",
+                    "description": "An eclectic bouquet of six love stories irrespective of race, age, class and gender in the city of Chennai.",
+                    "imdbRating": "7.1",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Triples",
+                    "id": "tt12299956",
+                    "poster": "https://images.metahub.space/poster/large/tt12299956/img",
+                    "banner": "https://images.metahub.space/background/large/tt12299956/img",
+                    "description": "Three besties, one dream caf\u00e9. It's anything but a cakewalk with shifty employees, angry politicians, crazy loan sharks and exes with whys.",
+                    "imdbRating": "7.0",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Time Enna Boss",
+                    "id": "tt12299942",
+                    "poster": "https://images.metahub.space/poster/large/tt12299942/img",
+                    "banner": "https://images.metahub.space/background/large/tt12299942/img",
+                    "description": "Bala is an average IT guy, is forced to host 4 random time travelers who land up in his new house, until they find their way back.",
+                    "imdbRating": "5.7",
+                    "releaseInfo": null,
+                    "runtime": null
+                }
+            ]
+        },
+        {
+            "catalog_name": "series_by_crime",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "Suzhal - the Vortex",
+                    "id": "tt20873118",
+                    "poster": "https://images.metahub.space/poster/large/tt20873118/img",
+                    "banner": "https://images.metahub.space/background/large/tt20873118/img",
+                    "description": "In a small South Indian town, a seemingly routine minor case explodes into a twisted crime thriller that rips apart its social fabric.",
+                    "imdbRating": "8.1",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "November Story",
+                    "id": "tt12299774",
+                    "poster": "https://images.metahub.space/poster/large/tt12299774/img",
+                    "banner": "https://images.metahub.space/background/large/tt12299774/img",
+                    "description": "A celebrated crime novelist suffering from Alzheimer's is found at a murder scene with no memory of what happened. Now, it is up to his daughter to save him.",
+                    "imdbRating": "7.6",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Vadhandhi: The Fable of Velonie",
+                    "id": "tt21908550",
+                    "poster": "https://images.metahub.space/poster/large/tt21908550/img",
+                    "banner": "https://images.metahub.space/background/large/tt21908550/img",
+                    "description": "The murder of a beautiful young girl, seen from the Rashomon-esque perspectives of an unrelenting obsessed cop, a novelist captivated by her grace and an opportunistic news editor.",
+                    "imdbRating": "8.0",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Label",
+                    "id": "tt25965602",
+                    "poster": "https://images.metahub.space/poster/large/tt25965602/img",
+                    "banner": "https://images.metahub.space/background/large/tt25965602/img",
+                    "description": "Revolves around the protagonist struggle to reach his desired identity, overcoming the identity society has labelled him with.",
+                    "imdbRating": "7.3",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "The Hunt for Veerappan",
+                    "id": "tt28306965",
+                    "poster": "https://images.metahub.space/poster/large/tt28306965/img",
+                    "banner": "https://images.metahub.space/background/large/tt28306965/img",
+                    "description": "A poacher who conquered the jungles of South India and became the subject of the biggest manhunt of India.",
+                    "imdbRating": "7.9",
+                    "releaseInfo": "2023",
+                    "runtime": null
+                },
+                {
+                    "name": "Koose Munisamy Veerappan",
+                    "id": "tt30150229",
+                    "poster": "https://images.metahub.space/poster/large/tt30150229/img",
+                    "banner": "https://images.metahub.space/background/large/tt30150229/img",
+                    "description": "This six-episode docu series looks at what happened in the case of the legendary sandalwood smuggler, poacher and terrorist Veerappan. It uses footage archived by Nakkheeran Gopal, editor and publisher of the Tamil journal Nakkheeran.",
+                    "imdbRating": "9.0",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Iru Dhuruvam",
+                    "id": "tt11123072",
+                    "poster": "https://images.metahub.space/poster/large/tt11123072/img",
+                    "banner": "https://images.metahub.space/background/large/tt11123072/img",
+                    "description": "The series consists of hard-core police investigation stories dealing with investigation, detection and suspense.",
+                    "imdbRating": "7.8",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Tamilrockerz",
+                    "id": "tt21211254",
+                    "poster": "https://images.metahub.space/poster/large/tt21211254/img",
+                    "banner": "https://images.metahub.space/background/large/tt21211254/img",
+                    "description": "Anonymous cyber pirates are threatening to release a highly anticipated film featuring a massively popular star. It's up to the cop Rudra to find the lawbreakers and bring them to justice.",
+                    "imdbRating": "6.6",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Kuttram Purindhavan",
+                    "id": "tt38568136",
+                    "poster": "https://images.metahub.space/poster/large/tt38568136/img",
+                    "banner": "https://images.metahub.space/background/large/tt38568136/img",
+                    "description": "When a girl vanishes in a small town, a retiring pharmacist, the child's mother, and a local cop become entangled in a web of secrets and guilt as they search for answers and confront hidden truths.",
+                    "imdbRating": "7.8",
+                    "releaseInfo": null,
+                    "runtime": null
+                }
+            ]
+        },
+        {
+            "catalog_name": "series_by_drama",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "Queen",
+                    "id": "tt11393148",
+                    "poster": "https://images.metahub.space/poster/large/tt11393148/img",
+                    "banner": "https://images.metahub.space/background/large/tt11393148/img",
+                    "description": "The Queen is a story of a woman in the male-driven worlds of Cinema and Tamil Nadu politics. It is a story of a woman who didn't get the happy ending she wanted and yet, was destiny's chosen child.",
+                    "imdbRating": "7.7",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Suzhal - the Vortex",
+                    "id": "tt20873118",
+                    "poster": "https://images.metahub.space/poster/large/tt20873118/img",
+                    "banner": "https://images.metahub.space/background/large/tt20873118/img",
+                    "description": "In a small South Indian town, a seemingly routine minor case explodes into a twisted crime thriller that rips apart its social fabric.",
+                    "imdbRating": "8.1",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Paava Kadhaigal",
+                    "id": "tt13206988",
+                    "poster": "https://images.metahub.space/poster/large/tt13206988/img",
+                    "banner": "https://images.metahub.space/background/large/tt13206988/img",
+                    "description": "At times dark, at times disturbing, four short films explore stories of those who dare to dream and desire - and those determined to stand in their way.",
+                    "imdbRating": "8.0",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Vadhandhi: The Fable of Velonie",
+                    "id": "tt21908550",
+                    "poster": "https://images.metahub.space/poster/large/tt21908550/img",
+                    "banner": "https://images.metahub.space/background/large/tt21908550/img",
+                    "description": "The murder of a beautiful young girl, seen from the Rashomon-esque perspectives of an unrelenting obsessed cop, a novelist captivated by her grace and an opportunistic news editor.",
+                    "imdbRating": "8.0",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Vilangu",
+                    "id": "tt15716624",
+                    "poster": "https://images.metahub.space/poster/large/tt15716624/img",
+                    "banner": "https://images.metahub.space/background/large/tt15716624/img",
+                    "description": "Paridhi, an honest cop, must race against time to solve a mysterious crime case that has baffled the police department.",
+                    "imdbRating": "8.0",
+                    "releaseInfo": "2022",
+                    "runtime": null
+                },
+                {
+                    "name": "Navarasa",
+                    "id": "tt13357946",
+                    "poster": "https://images.metahub.space/poster/large/tt13357946/img",
+                    "banner": "https://images.metahub.space/background/large/tt13357946/img",
+                    "description": "The nine episodes represent a different emotion or rasa such as anger, compassion, courage, disgust, fear, laughter, love, peace and wonder.",
+                    "imdbRating": "5.8",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Inspector Rishi",
+                    "id": "tt31701070",
+                    "poster": "https://images.metahub.space/poster/large/tt31701070/img",
+                    "banner": "https://images.metahub.space/background/large/tt31701070/img",
+                    "description": "A skeptic crime branch Inspector Rishi Nandhan, assisted by two sub-inspectors Ayyanar and Chitra, investigates a series of bizarre murders in a small mountain village, supposedly committed by a deadly forest spirit called the Vanaratchi.",
+                    "imdbRating": "7.2",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Sweet Kaaram Coffee",
+                    "id": "tt21908802",
+                    "poster": "https://images.metahub.space/poster/large/tt21908802/img",
+                    "banner": "https://images.metahub.space/background/large/tt21908802/img",
+                    "description": "Three women of different generations living in the same house, attempt for once, to put themselves ahead of the people they are bound by.",
+                    "imdbRating": "7.2",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Mayasabha",
+                    "id": "tt36600023",
+                    "poster": "https://images.metahub.space/poster/large/tt36600023/img",
+                    "banner": "https://images.metahub.space/background/large/tt36600023/img",
+                    "description": "Two rival politicians from different backgrounds rise through Andhra Pradesh's power structure in the 1970s-80s. KKN and MSR navigate caste politics and personal ambition during a pivotal era in Indian history.",
+                    "imdbRating": "9.1",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Vikkatakavi",
+                    "id": "tt32047599",
+                    "poster": "https://images.metahub.space/poster/large/tt32047599/img",
+                    "banner": "https://images.metahub.space/background/large/tt32047599/img",
+                    "description": "1970s Amaragiri residents suffer a memory-robbing plague. Detective Rama Krishna investigates the mysterious affliction but risks falling victim himself.",
+                    "imdbRating": "7.3",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Ayali",
+                    "id": "tt25966494",
+                    "poster": "https://images.metahub.space/poster/large/tt25966494/img",
+                    "banner": "https://images.metahub.space/background/large/tt25966494/img",
+                    "description": "Young Tamizhselvi dreams of becoming a doctor. But her village, Veerappannai, has fearsome age-old customs and traditions which inadvertently suppress women of the village. Will she be able to overcome them?",
+                    "imdbRating": "8.5",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Chutney Sambar",
+                    "id": "tt28434030",
+                    "poster": "https://images.metahub.space/poster/large/tt28434030/img",
+                    "banner": "https://images.metahub.space/background/large/tt28434030/img",
+                    "description": "An orphaned street vendor unexpectedly becomes part of his wealthy half-brother's family, navigating the challenges of gaining acceptance in his new circumstances.",
+                    "imdbRating": "8.0",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Tamilrockerz",
+                    "id": "tt21211254",
+                    "poster": "https://images.metahub.space/poster/large/tt21211254/img",
+                    "banner": "https://images.metahub.space/background/large/tt21211254/img",
+                    "description": "Anonymous cyber pirates are threatening to release a highly anticipated film featuring a massively popular star. It's up to the cop Rudra to find the lawbreakers and bring them to justice.",
+                    "imdbRating": "6.6",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Anantham",
+                    "id": "tt19733404",
+                    "poster": "https://images.metahub.space/poster/large/tt19733404/img",
+                    "banner": "https://images.metahub.space/background/large/tt19733404/img",
+                    "description": "Estranged son Ananth returns to his family home Anantham and goes on a journey down memory lane to find the stories of the wonder, betrayal, success, love, laughter, horror and courage of the different families and people who lived there.",
+                    "imdbRating": "8.1",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Vella Raja",
+                    "id": "tt9377880",
+                    "poster": "https://images.metahub.space/poster/large/tt9377880/img",
+                    "banner": "https://images.metahub.space/background/large/tt9377880/img",
+                    "description": "Theresa's vow to clean up the city from drugs leads her to Deva. Deva's drive to be the drug lord is paved with murders and politics. Will Theresa be able to catch Deva and end the drug war?",
+                    "imdbRating": "6.5",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Kuttram Purindhavan",
+                    "id": "tt38568136",
+                    "poster": "https://images.metahub.space/poster/large/tt38568136/img",
+                    "banner": "https://images.metahub.space/background/large/tt38568136/img",
+                    "description": "When a girl vanishes in a small town, a retiring pharmacist, the child's mother, and a local cop become entangled in a web of secrets and guilt as they search for answers and confront hidden truths.",
+                    "imdbRating": "7.8",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Heart Beat",
+                    "id": "tt31862809",
+                    "poster": "https://images.metahub.space/poster/large/tt31862809/img",
+                    "banner": "https://images.metahub.space/background/large/tt31862809/img",
+                    "description": "Based around RK Multispeciality Hospital and its doctors, who are resilient as they deal with medical and personal challenges.",
+                    "imdbRating": "8.6",
+                    "releaseInfo": null,
+                    "runtime": null
+                }
+            ]
+        },
+        {
+            "catalog_name": "series_by_family",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "Sweet Kaaram Coffee",
+                    "id": "tt21908802",
+                    "poster": "https://images.metahub.space/poster/large/tt21908802/img",
+                    "banner": "https://images.metahub.space/background/large/tt21908802/img",
+                    "description": "Three women of different generations living in the same house, attempt for once, to put themselves ahead of the people they are bound by.",
+                    "imdbRating": "7.2",
+                    "releaseInfo": null,
+                    "runtime": null
+                }
+            ]
+        },
+        {
+            "catalog_name": "series_by_history",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "Queen",
+                    "id": "tt11393148",
+                    "poster": "https://images.metahub.space/poster/large/tt11393148/img",
+                    "banner": "https://images.metahub.space/background/large/tt11393148/img",
+                    "description": "The Queen is a story of a woman in the male-driven worlds of Cinema and Tamil Nadu politics. It is a story of a woman who didn't get the happy ending she wanted and yet, was destiny's chosen child.",
+                    "imdbRating": "7.7",
+                    "releaseInfo": null,
+                    "runtime": null
+                }
+            ]
+        },
+        {
+            "catalog_name": "series_by_horror",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "Inspector Rishi",
+                    "id": "tt31701070",
+                    "poster": "https://images.metahub.space/poster/large/tt31701070/img",
+                    "banner": "https://images.metahub.space/background/large/tt31701070/img",
+                    "description": "A skeptic crime branch Inspector Rishi Nandhan, assisted by two sub-inspectors Ayyanar and Chitra, investigates a series of bizarre murders in a small mountain village, supposedly committed by a deadly forest spirit called the Vanaratchi.",
+                    "imdbRating": "7.2",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "The Village",
+                    "id": "tt21882650",
+                    "poster": "https://images.metahub.space/poster/large/tt21882650/img",
+                    "banner": "https://images.metahub.space/background/large/tt21882650/img",
+                    "description": "A stranded urbanite and his three unlikely companions brave an eerie village with a sinister past to rescue his missing family in one night.",
+                    "imdbRating": "5.4",
+                    "releaseInfo": null,
+                    "runtime": null
+                }
+            ]
+        },
+        {
+            "catalog_name": "series_by_mystery",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "November Story",
+                    "id": "tt12299774",
+                    "poster": "https://images.metahub.space/poster/large/tt12299774/img",
+                    "banner": "https://images.metahub.space/background/large/tt12299774/img",
+                    "description": "A celebrated crime novelist suffering from Alzheimer's is found at a murder scene with no memory of what happened. Now, it is up to his daughter to save him.",
+                    "imdbRating": "7.6",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Vadhandhi: The Fable of Velonie",
+                    "id": "tt21908550",
+                    "poster": "https://images.metahub.space/poster/large/tt21908550/img",
+                    "banner": "https://images.metahub.space/background/large/tt21908550/img",
+                    "description": "The murder of a beautiful young girl, seen from the Rashomon-esque perspectives of an unrelenting obsessed cop, a novelist captivated by her grace and an opportunistic news editor.",
+                    "imdbRating": "8.0",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Vilangu",
+                    "id": "tt15716624",
+                    "poster": "https://images.metahub.space/poster/large/tt15716624/img",
+                    "banner": "https://images.metahub.space/background/large/tt15716624/img",
+                    "description": "Paridhi, an honest cop, must race against time to solve a mysterious crime case that has baffled the police department.",
+                    "imdbRating": "8.0",
+                    "releaseInfo": "2022",
+                    "runtime": null
+                },
+                {
+                    "name": "Inspector Rishi",
+                    "id": "tt31701070",
+                    "poster": "https://images.metahub.space/poster/large/tt31701070/img",
+                    "banner": "https://images.metahub.space/background/large/tt31701070/img",
+                    "description": "A skeptic crime branch Inspector Rishi Nandhan, assisted by two sub-inspectors Ayyanar and Chitra, investigates a series of bizarre murders in a small mountain village, supposedly committed by a deadly forest spirit called the Vanaratchi.",
+                    "imdbRating": "7.2",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Aindham Vedham",
+                    "id": "tt33983792",
+                    "poster": "https://images.metahub.space/poster/large/tt33983792/img",
+                    "banner": "https://images.metahub.space/background/large/tt33983792/img",
+                    "description": "Whilst in Varanasi for her mother's last rites, Anu is entrusted with an ancient relic by a stranger, destined for a Tamil Nadu priest, which may unveil the secrets of the elusive Fifth Veda.",
+                    "imdbRating": "7.2",
+                    "releaseInfo": null,
+                    "runtime": null
+                }
+            ]
+        },
+        {
+            "catalog_name": "series_by_romance",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "Jab Mila Tu",
+                    "id": "tt30836099",
+                    "poster": "https://images.metahub.space/poster/large/tt30836099/img",
+                    "banner": "https://images.metahub.space/background/large/tt30836099/img",
+                    "description": "When Maddy and Aneri find themselves sharing a home, things get chaotic . With Mint and Jigar joining the mix, their journey becomes a whirl wind of unpredictable adventures and camaraderie.",
+                    "imdbRating": "7.0",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Anantham",
+                    "id": "tt19733404",
+                    "poster": "https://images.metahub.space/poster/large/tt19733404/img",
+                    "banner": "https://images.metahub.space/background/large/tt19733404/img",
+                    "description": "Estranged son Ananth returns to his family home Anantham and goes on a journey down memory lane to find the stories of the wonder, betrayal, success, love, laughter, horror and courage of the different families and people who lived there.",
+                    "imdbRating": "8.1",
+                    "releaseInfo": null,
+                    "runtime": null
+                }
+            ]
+        },
+        {
+            "catalog_name": "series_by_thriller",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "Suzhal - the Vortex",
+                    "id": "tt20873118",
+                    "poster": "https://images.metahub.space/poster/large/tt20873118/img",
+                    "banner": "https://images.metahub.space/background/large/tt20873118/img",
+                    "description": "In a small South Indian town, a seemingly routine minor case explodes into a twisted crime thriller that rips apart its social fabric.",
+                    "imdbRating": "8.1",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "November Story",
+                    "id": "tt12299774",
+                    "poster": "https://images.metahub.space/poster/large/tt12299774/img",
+                    "banner": "https://images.metahub.space/background/large/tt12299774/img",
+                    "description": "A celebrated crime novelist suffering from Alzheimer's is found at a murder scene with no memory of what happened. Now, it is up to his daughter to save him.",
+                    "imdbRating": "7.6",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Vadhandhi: The Fable of Velonie",
+                    "id": "tt21908550",
+                    "poster": "https://images.metahub.space/poster/large/tt21908550/img",
+                    "banner": "https://images.metahub.space/background/large/tt21908550/img",
+                    "description": "The murder of a beautiful young girl, seen from the Rashomon-esque perspectives of an unrelenting obsessed cop, a novelist captivated by her grace and an opportunistic news editor.",
+                    "imdbRating": "8.0",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Vilangu",
+                    "id": "tt15716624",
+                    "poster": "https://images.metahub.space/poster/large/tt15716624/img",
+                    "banner": "https://images.metahub.space/background/large/tt15716624/img",
+                    "description": "Paridhi, an honest cop, must race against time to solve a mysterious crime case that has baffled the police department.",
+                    "imdbRating": "8.0",
+                    "releaseInfo": "2022",
+                    "runtime": null
+                },
+                {
+                    "name": "The Hunt: The Rajiv Gandhi Assassination Case",
+                    "id": "tt37365626",
+                    "poster": "https://images.metahub.space/poster/large/tt37365626/img",
+                    "banner": "https://images.metahub.space/background/large/tt37365626/img",
+                    "description": "In 1991, Rajiv Gandhi was killed by a suicide bomber at a campaign rally. A 90-day investigation revealed LTTE involvement, leading to arrests and convictions of conspirators.",
+                    "imdbRating": "7.9",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Vikkatakavi",
+                    "id": "tt32047599",
+                    "poster": "https://images.metahub.space/poster/large/tt32047599/img",
+                    "banner": "https://images.metahub.space/background/large/tt32047599/img",
+                    "description": "1970s Amaragiri residents suffer a memory-robbing plague. Detective Rama Krishna investigates the mysterious affliction but risks falling victim himself.",
+                    "imdbRating": "7.3",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Iru Dhuruvam",
+                    "id": "tt11123072",
+                    "poster": "https://images.metahub.space/poster/large/tt11123072/img",
+                    "banner": "https://images.metahub.space/background/large/tt11123072/img",
+                    "description": "The series consists of hard-core police investigation stories dealing with investigation, detection and suspense.",
+                    "imdbRating": "7.8",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "The Village",
+                    "id": "tt21882650",
+                    "poster": "https://images.metahub.space/poster/large/tt21882650/img",
+                    "banner": "https://images.metahub.space/background/large/tt21882650/img",
+                    "description": "A stranded urbanite and his three unlikely companions brave an eerie village with a sinister past to rescue his missing family in one night.",
+                    "imdbRating": "5.4",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Tamilrockerz",
+                    "id": "tt21211254",
+                    "poster": "https://images.metahub.space/poster/large/tt21211254/img",
+                    "banner": "https://images.metahub.space/background/large/tt21211254/img",
+                    "description": "Anonymous cyber pirates are threatening to release a highly anticipated film featuring a massively popular star. It's up to the cop Rudra to find the lawbreakers and bring them to justice.",
+                    "imdbRating": "6.6",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Aindham Vedham",
+                    "id": "tt33983792",
+                    "poster": "https://images.metahub.space/poster/large/tt33983792/img",
+                    "banner": "https://images.metahub.space/background/large/tt33983792/img",
+                    "description": "Whilst in Varanasi for her mother's last rites, Anu is entrusted with an ancient relic by a stranger, destined for a Tamil Nadu priest, which may unveil the secrets of the elusive Fifth Veda.",
+                    "imdbRating": "7.2",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Mathagam",
+                    "id": "tt27671508",
+                    "poster": "https://images.metahub.space/poster/large/tt27671508/img",
+                    "banner": "https://images.metahub.space/background/large/tt27671508/img",
+                    "description": "A sincere IPS officer, who takes on a crime syndicate, led by an evil mastermind.",
+                    "imdbRating": "6.4",
+                    "releaseInfo": null,
+                    "runtime": null
+                }
+            ]
+        },
+        {
+            "catalog_name": "best_movies_of_2026",
+            "catalog_type": "movie",
+            "catalog_items": [
+                {
+                    "name": "Saayavanam",
+                    "id": "tt39195686",
+                    "poster": "https://images.metahub.space/poster/large/tt39195686/img",
+                    "banner": "https://images.metahub.space/background/large/tt39195686/img",
+                    "description": "A Woman is abandoned, deceived, and wounded - but she stands again with pride. Saayavanam is sita's journey from pain to power, from silence to strength.",
+                    "imdbRating": "9.8",
+                    "releaseInfo": "2025",
+                    "runtime": "2h"
+                },
+                {
+                    "name": "Thadai Athai Udai",
+                    "id": "tt38745413",
+                    "poster": "https://images.metahub.space/poster/large/tt38745413/img",
+                    "banner": "https://images.metahub.space/background/large/tt38745413/img",
+                    "description": "Three brick kiln workers chase their filmmaking dreams, starting with village theater. When their YouTube channel takes an ambitious turn, their second project leads them down an unforeseen path to success.",
+                    "imdbRating": "9.5",
+                    "releaseInfo": "2025",
+                    "runtime": "1h 58m"
+                },
+                {
+                    "name": "Saaraa",
+                    "id": "tt39110880",
+                    "poster": "https://images.metahub.space/poster/large/tt39110880/img",
+                    "banner": "https://images.metahub.space/background/large/tt39110880/img",
+                    "description": "A Thriller Sentimental Story dealing with a son's love to a single mother. An unimaginable sacrifice done between friendship and love in this decade.",
+                    "imdbRating": "9.3",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 10m"
+                },
+                {
+                    "name": "Irudhi Muyarchi",
+                    "id": "tt33505969",
+                    "poster": "https://images.metahub.space/poster/large/tt33505969/img",
+                    "banner": "https://images.metahub.space/background/large/tt33505969/img",
+                    "description": null,
+                    "imdbRating": "9.3",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 1m"
+                },
+                {
+                    "name": "4 Girls",
+                    "id": "tt29436151",
+                    "poster": "https://images.metahub.space/poster/large/tt29436151/img",
+                    "banner": "https://images.metahub.space/background/large/tt29436151/img",
+                    "description": "Disha Swapna Latest Bollywood Entertainment Movie in various languages in Telugu, Hindi, Kannada, Tamil, etc. Hero Ankur Heroine Shruthika is a soon to be released movie in five language",
+                    "imdbRating": "9.2",
+                    "releaseInfo": "2025",
+                    "runtime": "1h 41m"
+                },
+                {
+                    "name": "Vattakhanal",
+                    "id": "tt38428591",
+                    "poster": "https://images.metahub.space/poster/large/tt38428591/img",
+                    "banner": "https://images.metahub.space/background/large/tt38428591/img",
+                    "description": "Three orphans raised by a ruthless kingpin must face him when love and revenge collide in a battle for justice.",
+                    "imdbRating": "8.9",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 10m"
+                },
+                {
+                    "name": "Kannagi Nagar",
+                    "id": "tt39018917",
+                    "poster": "https://images.metahub.space/poster/large/tt39018917/img",
+                    "banner": "https://images.metahub.space/background/large/tt39018917/img",
+                    "description": "After losing parents in a tsunami, Kutty believes his sister Meena was killed. He murders five people in revenge. Finding her alive in Thailand, she rejects him, leading to his suicide.",
+                    "imdbRating": "8.9",
+                    "releaseInfo": "2025",
+                    "runtime": "1h 47m"
+                },
+                {
+                    "name": "Not All Movies Are the Same: Dual",
+                    "id": "tt37671707",
+                    "poster": "https://images.metahub.space/poster/large/tt37671707/img",
+                    "banner": "https://images.metahub.space/background/large/tt37671707/img",
+                    "description": "After losing everything to a personal mistake, a young man stumbles into a parallel world where a family is trapped by zombies. Driven to save them, he must navigate this deadly reality and fight for survival-and redemption",
+                    "imdbRating": "8.8",
+                    "releaseInfo": "2025",
+                    "runtime": "1h 37m"
+                },
+                {
+                    "name": "Nirvaagam Porupalla",
+                    "id": "tt39115096",
+                    "poster": "https://images.metahub.space/poster/large/tt39115096/img",
+                    "banner": "https://images.metahub.space/background/large/tt39115096/img",
+                    "description": "A man investigates a cybercrime ring using WhatsApp links and fake APKs to steal money, revealing a sinister web lurking beneath common tech platforms.",
+                    "imdbRating": "8.7",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 9m"
+                },
+                {
+                    "name": "Accused",
+                    "id": "tt36092523",
+                    "poster": "https://images.metahub.space/poster/large/tt36092523/img",
+                    "banner": "https://images.metahub.space/background/large/tt36092523/img",
+                    "description": "Explores the idea that not everyone accused of a crime is guilty. Delves into how even good people can be affected by the errors in the system and turn gangsters.",
+                    "imdbRating": "8.7",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 14m"
+                },
+                {
+                    "name": "Janata Bar",
+                    "id": "tt26694732",
+                    "poster": "https://images.metahub.space/poster/large/tt26694732/img",
+                    "banner": "https://images.metahub.space/background/large/tt26694732/img",
+                    "description": "Follows a woman's revolutionary journey, sacrificing greatly in her pursuit of justice under the law.",
+                    "imdbRating": "8.5",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 2m"
+                },
+                {
+                    "name": "Eko",
+                    "id": "tt36616410",
+                    "poster": "https://images.metahub.space/poster/large/tt36616410/img",
+                    "banner": "https://images.metahub.space/background/large/tt36616410/img",
+                    "description": "In misty Kaattukunnu hills, an elderly woman and her caretaker confront past memories while a hunted dog breeder named Kuriyachan eludes capture. As searchers arrive, buried secrets emerge.",
+                    "imdbRating": "8.3",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 5m"
+                },
+                {
+                    "name": "Constable",
+                    "id": "tt28182053",
+                    "poster": "https://images.metahub.space/poster/large/tt28182053/img",
+                    "banner": "https://images.metahub.space/background/large/tt28182053/img",
+                    "description": "A small-town constable's peaceful life in Mokila takes a dark turn when mysterious killings disrupt the village. Alongside his loyal partner and an intriguing admirer, he must solve a case that tests his resolve.",
+                    "imdbRating": "8.3",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 10m"
+                },
+                {
+                    "name": "Kantara: A Legend - Chapter 1",
+                    "id": "tt26439764",
+                    "poster": "https://images.metahub.space/poster/large/tt26439764/img",
+                    "banner": "https://images.metahub.space/background/large/tt26439764/img",
+                    "description": "Exploring the origins of Kaadubettu Shiva during the Kadamba dynasty era, it delves into the untamed wilderness and forgotten lore surrounding his past.",
+                    "imdbRating": "8.2",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 45m"
+                },
+                {
+                    "name": "Tourist Family",
+                    "id": "tt34915705",
+                    "poster": "https://images.metahub.space/poster/large/tt34915705/img",
+                    "banner": "https://images.metahub.space/background/large/tt34915705/img",
+                    "description": "A quirky Sri Lankan family seeking a fresh start in India transforms a disconnected neighborhood into a vibrant community with their infectious love and kindness.",
+                    "imdbRating": "8.2",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 7m"
+                },
+                {
+                    "name": "Bhoghee",
+                    "id": "tt37605189",
+                    "poster": "https://images.metahub.space/poster/large/tt37605189/img",
+                    "banner": "https://images.metahub.space/background/large/tt37605189/img",
+                    "description": "In a remote village, Alaghar dreams of making his sister Kavitha a doctor. She rises against all odds, but tragedy strikes in Chennai. A tale of hope, loss, and what went wrong in a city of progress.",
+                    "imdbRating": "8.2",
+                    "releaseInfo": "2025",
+                    "runtime": "1h 53m"
+                },
+                {
+                    "name": "Marutham",
+                    "id": "tt38573838",
+                    "poster": "https://images.metahub.space/poster/large/tt38573838/img",
+                    "banner": "https://images.metahub.space/background/large/tt38573838/img",
+                    "description": "Kanniyappan's tranquil farming life is disrupted when his ancestral land is auctioned due to a mysterious debt, leading him to uncover the shocking truth and fight back.",
+                    "imdbRating": "8.2",
+                    "releaseInfo": "2025",
+                    "runtime": "1h 43m"
+                },
+                {
+                    "name": "45",
+                    "id": "tt27263807",
+                    "poster": "https://images.metahub.space/poster/large/tt27263807/img",
+                    "banner": "https://images.metahub.space/background/large/tt27263807/img",
+                    "description": "A gripping tale of life, love, and destiny, filled with raw emotions, intense drama and high-octane action.",
+                    "imdbRating": "8.1",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 30m"
+                },
+                {
+                    "name": "Rajini Gaang",
+                    "id": "tt38938222",
+                    "poster": "https://images.metahub.space/poster/large/tt38938222/img",
+                    "banner": "https://images.metahub.space/background/large/tt38938222/img",
+                    "description": "A couple's hasty marriage using a stolen sacred necklace leads to supernatural possession, forcing the husband to work with others to investigate the necklace's dark history and rescue his wife.",
+                    "imdbRating": "7.9",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 6m"
+                },
+                {
+                    "name": "Madras Matinee",
+                    "id": "tt36454677",
+                    "poster": "https://images.metahub.space/poster/large/tt36454677/img",
+                    "banner": "https://images.metahub.space/background/large/tt36454677/img",
+                    "description": "An aging sci-fi writer is challenged by his caretaker to write about the common man. Reluctantly, he begins the story of Kannan, a TukTuk driver, and his family - only to discover that ordinary life holds unexpected depth and drama.",
+                    "imdbRating": "7.9",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 15m"
+                },
+                {
+                    "name": "Anugrahan",
+                    "id": "tt15528486",
+                    "poster": "https://images.metahub.space/poster/large/tt15528486/img",
+                    "banner": "https://images.metahub.space/background/large/tt15528486/img",
+                    "description": "In Anugrahan , an 11-year-old boy travels to the past to befriend his young father and help him chase his dreams, creating a magical bond across time through love, music, and sacrifice.",
+                    "imdbRating": "7.9",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 3m"
+                },
+                {
+                    "name": "Bison Kaalamaadan",
+                    "id": "tt15097358",
+                    "poster": "https://images.metahub.space/poster/large/tt15097358/img",
+                    "banner": "https://images.metahub.space/background/large/tt15097358/img",
+                    "description": "A young man fights to overcome violence plaguing his village and succeed as a professional kabaddi player.",
+                    "imdbRating": "7.8",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 30m"
+                },
+                {
+                    "name": "Dragon",
+                    "id": "tt32080876",
+                    "poster": "https://images.metahub.space/poster/large/tt32080876/img",
+                    "banner": "https://images.metahub.space/background/large/tt32080876/img",
+                    "description": "After a devastating breakup, troubled student Ragavan abandons his studies and enters the dangerous world of financial fraud, pursuing wealth and power while becoming entangled in escalating deception.",
+                    "imdbRating": "7.8",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 37m"
+                },
+                {
+                    "name": "Bakasura Restaurant",
+                    "id": "tt36793656",
+                    "poster": "https://images.metahub.space/poster/large/tt36793656/img",
+                    "banner": "https://images.metahub.space/background/large/tt36793656/img",
+                    "description": "A wish of 5 youngsters leads them to unveil a supernatural force lurking beneath around them",
+                    "imdbRating": "7.8",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 38m"
+                },
+                {
+                    "name": "Kadaisi Thotta",
+                    "id": "tt29084914",
+                    "poster": "https://images.metahub.space/poster/large/tt29084914/img",
+                    "banner": "https://images.metahub.space/background/large/tt29084914/img",
+                    "description": "A honeymoon at an idyllic resort becomes a fight for survival when Rakshan stumbles upon a brutal crime. With his new wife Shruthi by his side, he must navigate through a web of dangerous revelations.",
+                    "imdbRating": "7.7",
+                    "releaseInfo": "2025",
+                    "runtime": "1h 46m"
+                },
+                {
+                    "name": "Kadukka",
+                    "id": "tt36575995",
+                    "poster": "https://images.metahub.space/poster/large/tt36575995/img",
+                    "banner": "https://images.metahub.space/background/large/tt36575995/img",
+                    "description": "Two friends in a quiet village compete for the same girl's affection. Their friendship becomes a comedic battle of charm and tricks, but she's got an unexpected twist in this fun-filled romantic comedy.",
+                    "imdbRating": "7.7",
+                    "releaseInfo": "2025",
+                    "runtime": "2h"
+                },
+                {
+                    "name": "Tere Ishk Mein",
+                    "id": "tt28142095",
+                    "poster": "https://images.metahub.space/poster/large/tt28142095/img",
+                    "banner": "https://images.metahub.space/background/large/tt28142095/img",
+                    "description": "Shankar and Mukti's intense love story unfolds against the backdrop of Benaras, exploring surrender and transformation through an all-consuming romance that heals, hurts, and changes them.",
+                    "imdbRating": "7.5",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 47m"
+                },
+                {
+                    "name": "Kaantha",
+                    "id": "tt28508934",
+                    "poster": "https://images.metahub.space/poster/large/tt28508934/img",
+                    "banner": "https://images.metahub.space/background/large/tt28508934/img",
+                    "description": "In 1950s Madras, lives intertwine against a backdrop of social transformation during India's post-independence era.",
+                    "imdbRating": "7.5",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 30m"
+                },
+                {
+                    "name": "Thudarum",
+                    "id": "tt31969600",
+                    "poster": "https://images.metahub.space/poster/large/tt31969600/img",
+                    "banner": "https://images.metahub.space/background/large/tt31969600/img",
+                    "description": "In the quiet hill town of Ranni, humble taxi driver Shanmughan treasures one thing above all - his aging Ambassador car. When fate puts him to the test, he must prove just how far he'll go for what he holds dear.",
+                    "imdbRating": "7.5",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 43m"
+                },
+                {
+                    "name": "Eleven",
+                    "id": "tt28679253",
+                    "poster": "https://images.metahub.space/poster/large/tt28679253/img",
+                    "banner": "https://images.metahub.space/background/large/tt28679253/img",
+                    "description": "A brave and skilled officer with a strong record of solving tough cases is assigned to a new, more challenging serial killing investigation.",
+                    "imdbRating": "7.5",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 15m"
+                },
+                {
+                    "name": "Maareesan",
+                    "id": "tt29383191",
+                    "poster": "https://images.metahub.space/poster/large/tt29383191/img",
+                    "banner": "https://images.metahub.space/background/large/tt29383191/img",
+                    "description": "In an unusual situation , Velayudham sets out on a journey with Dhaya from Nagercoil to Tiruvannamalai-a journey that will alter both their lives in ways they never imagined. What unfolds becomes the heart of the story.",
+                    "imdbRating": "7.4",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 30m"
+                },
+                {
+                    "name": "House Mates",
+                    "id": "tt32278054",
+                    "poster": "https://images.metahub.space/poster/large/tt32278054/img",
+                    "banner": "https://images.metahub.space/background/large/tt32278054/img",
+                    "description": "Newly married Karthik and Anu buys an old apartment and starts their life, soon they start witnessing strange things happening in the house and and they think it is an act of ghost, but soon they find the shocking truth.",
+                    "imdbRating": "7.4",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 9m"
+                },
+                {
+                    "name": "3BHK",
+                    "id": "tt32411272",
+                    "poster": "https://images.metahub.space/poster/large/tt32411272/img",
+                    "banner": "https://images.metahub.space/background/large/tt32411272/img",
+                    "description": "A middle-class family battles financial hurdles and personal setbacks while pursuing their dream of owning a home in the bustling city.",
+                    "imdbRating": "7.4",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 30m"
+                },
+                {
+                    "name": "Kutram Thavir",
+                    "id": "tt36772224",
+                    "poster": "https://images.metahub.space/poster/large/tt36772224/img",
+                    "banner": "https://images.metahub.space/background/large/tt36772224/img",
+                    "description": "After losing his sister to medical insurance fraud, Rudra discovers a dark web of corruption targeting vulnerable citizens. His quest for answers leads him down a dangerous path of revenge and justice.",
+                    "imdbRating": "7.4",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 17m"
+                },
+                {
+                    "name": "Ring Ring",
+                    "id": "tt27851746",
+                    "poster": "https://images.metahub.space/poster/large/tt27851746/img",
+                    "banner": "https://images.metahub.space/background/large/tt27851746/img",
+                    "description": "\" RING RING \" offers an entertaining and light-hearted depiction of how a seemingly innocent game can unravel deep secrets and test the strength of friendship and relationships.",
+                    "imdbRating": "7.4",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 2m"
+                },
+                {
+                    "name": "Aaromaley",
+                    "id": "tt36587142",
+                    "poster": "https://images.metahub.space/poster/large/tt36587142/img",
+                    "banner": "https://images.metahub.space/background/large/tt36587142/img",
+                    "description": "A romantic dreamer faces reality when forced to work at a matchmaking agency under a practical boss. After learning love needs effort, he loses his chance. Years later, fate offers another opportunity.",
+                    "imdbRating": "7.3",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 8m"
+                },
+                {
+                    "name": "Kudumbasthan",
+                    "id": "tt31958285",
+                    "poster": "https://images.metahub.space/poster/large/tt31958285/img",
+                    "banner": "https://images.metahub.space/background/large/tt31958285/img",
+                    "description": "A lower-middle-class man faces mounting debts and family tensions after losing his job. With a pregnant wife and disapproving in-laws, he must overcome financial struggles and personal conflicts while trying to rebuild his life.",
+                    "imdbRating": "7.3",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 34m"
+                },
+                {
+                    "name": "Mirai",
+                    "id": "tt30858568",
+                    "poster": "https://images.metahub.space/poster/large/tt30858568/img",
+                    "banner": "https://images.metahub.space/background/large/tt30858568/img",
+                    "description": "A warrior is tasked with the protection nine sacred scriptures that can turn any mortal into a deity.",
+                    "imdbRating": "7.2",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 49m"
+                },
+                {
+                    "name": "Mask",
+                    "id": "tt32423736",
+                    "poster": "https://images.metahub.space/poster/large/tt32423736/img",
+                    "banner": "https://images.metahub.space/background/large/tt32423736/img",
+                    "description": "440 crores stolen. Seven days to get it back. A game of greed, betrayal and intrigue culminates into an explosive climax in this story of a greedy man, a conniving woman and an uncanny guy with a bag full of tricks.",
+                    "imdbRating": "7.2",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 8m"
+                },
+                {
+                    "name": "DNA",
+                    "id": "tt29471661",
+                    "poster": "https://images.metahub.space/poster/large/tt29471661/img",
+                    "banner": "https://images.metahub.space/background/large/tt29471661/img",
+                    "description": "A new mom with BPD believes her baby was switched after birth. While others doubt her, her reformed addict husband races to find their real child before time runs out.",
+                    "imdbRating": "7.2",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 20m"
+                },
+                {
+                    "name": "Paranthu Po",
+                    "id": "tt36931506",
+                    "poster": "https://images.metahub.space/poster/large/tt36931506/img",
+                    "banner": "https://images.metahub.space/background/large/tt36931506/img",
+                    "description": "A stubborn schoolboy and his caring but financially struggling father leave city stress behind on a road trip together.",
+                    "imdbRating": "7.2",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 20m"
+                },
+                {
+                    "name": "Subham",
+                    "id": "tt34376523",
+                    "poster": "https://images.metahub.space/poster/large/tt34376523/img",
+                    "banner": "https://images.metahub.space/background/large/tt34376523/img",
+                    "description": "A group of married men band together after their wives become transfixed by a cable TV soap opera serial.",
+                    "imdbRating": "7.2",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 5m"
+                },
+                {
+                    "name": "Kambi Katna Kathai",
+                    "id": "tt38504365",
+                    "poster": "https://images.metahub.space/poster/large/tt38504365/img",
+                    "banner": "https://images.metahub.space/background/large/tt38504365/img",
+                    "description": "A con artist's scheme to become divine leads him through wild adventures as he scams his way up society's ladder, culminating in his status as a worshipped guru with an island sanctuary.",
+                    "imdbRating": "7.2",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 19m"
+                },
+                {
+                    "name": "Central",
+                    "id": "tt36616361",
+                    "poster": "https://images.metahub.space/poster/large/tt36616361/img",
+                    "banner": "https://images.metahub.space/background/large/tt36616361/img",
+                    "description": "The story is about the hero who comes to Chennai Central from a small village due to his family situation, what kind of hardships does he experience in the name of capitalism and how does he recover from it.",
+                    "imdbRating": "7.2",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 2m"
+                },
+                {
+                    "name": "Night Patrol",
+                    "id": "tt33294533",
+                    "poster": "https://images.metahub.space/poster/large/tt33294533/img",
+                    "banner": "https://images.metahub.space/background/large/tt33294533/img",
+                    "description": "Two patrol officers face mounting tensions during a night shift as they navigate dangerous calls while confronting their strained partnership and personal demons.",
+                    "imdbRating": "7.1",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 2m"
+                },
+                {
+                    "name": "Identity",
+                    "id": "tt27436132",
+                    "poster": "https://images.metahub.space/poster/large/tt27436132/img",
+                    "banner": "https://images.metahub.space/background/large/tt27436132/img",
+                    "description": "A sketch artist and a cop work together to unravel the identity of an elusive killer using the descriptions of his face, etched into the memory of an eye-witness to the brutal crime.",
+                    "imdbRating": "7.1",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 37m"
+                },
+                {
+                    "name": "Aan Paavam Pollathathu",
+                    "id": "tt32284122",
+                    "poster": "https://images.metahub.space/poster/large/tt32284122/img",
+                    "banner": "https://images.metahub.space/background/large/tt32284122/img",
+                    "description": "A middle-class husband struggles to accept his wife's modern, progressive attitudes, creating tension in their marriage.",
+                    "imdbRating": "7.0",
+                    "releaseInfo": "2025",
+                    "runtime": "2h 2m"
+                }
+            ]
+        },
+        {
             "catalog_name": "best_movies_of_2025",
             "catalog_type": "movie",
             "catalog_items": [
@@ -14316,7 +15596,7 @@
                     "poster": "https://images.metahub.space/poster/large/tt28679253/img",
                     "banner": "https://images.metahub.space/background/large/tt28679253/img",
                     "description": "A brave and skilled officer with a strong record of solving tough cases is assigned to a new, more challenging serial killing investigation.",
-                    "imdbRating": "7.4",
+                    "imdbRating": "7.5",
                     "releaseInfo": "2025",
                     "runtime": "2h 15m"
                 },
@@ -16951,108 +18231,330 @@
             ]
         },
         {
-            "catalog_name": "best_movies_of_2011",
-            "catalog_type": "movie",
+            "catalog_name": "best_series_of_2026",
+            "catalog_type": "series",
             "catalog_items": [
                 {
-                    "name": "Deiva Thirumagal",
-                    "id": "tt1857670",
-                    "poster": "https://images.metahub.space/poster/large/tt1857670/img",
-                    "banner": "https://images.metahub.space/background/large/tt1857670/img",
-                    "description": "A man with disabilities fights for custody of his 7-year-old daughter, and in the process teaches his opponent lawyer the value of love and family.",
-                    "imdbRating": "8.2",
-                    "releaseInfo": "2011",
-                    "runtime": "2h 42m"
+                    "name": "Mayasabha",
+                    "id": "tt36600023",
+                    "poster": "https://images.metahub.space/poster/large/tt36600023/img",
+                    "banner": "https://images.metahub.space/background/large/tt36600023/img",
+                    "description": "Two rival politicians from different backgrounds rise through Andhra Pradesh's power structure in the 1970s-80s. KKN and MSR navigate caste politics and personal ambition during a pivotal era in Indian history.",
+                    "imdbRating": "9.1",
+                    "releaseInfo": null,
+                    "runtime": null
                 },
                 {
-                    "name": "Vaagai Sooda Vaa",
-                    "id": "tt2078763",
-                    "poster": "https://images.metahub.space/poster/large/tt2078763/img",
-                    "banner": "https://images.metahub.space/background/large/tt2078763/img",
-                    "description": "Vimal was sent by his father to do social service in a village. But later, he gets a good job.",
-                    "imdbRating": "8.2",
-                    "releaseInfo": "2011",
-                    "runtime": "2h 3m"
-                },
-                {
-                    "name": "Aadukalam",
-                    "id": "tt1821317",
-                    "poster": "https://images.metahub.space/poster/large/tt1821317/img",
-                    "banner": "https://images.metahub.space/background/large/tt1821317/img",
-                    "description": "Falling in love with Irene as well as refusing to obey his boss Pettaikaran in a rooster fight complicates Karuppu's life.",
-                    "imdbRating": "8.1",
-                    "releaseInfo": "2011",
-                    "runtime": "2h 40m"
-                },
-                {
-                    "name": "Yutham Sei",
-                    "id": "tt1843335",
-                    "poster": "https://images.metahub.space/poster/large/tt1843335/img",
-                    "banner": "https://images.metahub.space/background/large/tt1843335/img",
-                    "description": "A common man's ability to defeat the devil. A cop identifies the mystery and solves the problem.",
+                    "name": "The Hunt: The Rajiv Gandhi Assassination Case",
+                    "id": "tt37365626",
+                    "poster": "https://images.metahub.space/poster/large/tt37365626/img",
+                    "banner": "https://images.metahub.space/background/large/tt37365626/img",
+                    "description": "In 1991, Rajiv Gandhi was killed by a suicide bomber at a campaign rally. A 90-day investigation revealed LTTE involvement, leading to arrests and convictions of conspirators.",
                     "imdbRating": "7.9",
-                    "releaseInfo": "2011",
-                    "runtime": "2h 40m"
+                    "releaseInfo": null,
+                    "runtime": null
                 },
                 {
-                    "name": "Ko",
-                    "id": "tt1851988",
-                    "poster": "https://images.metahub.space/poster/large/tt1851988/img",
-                    "banner": "https://images.metahub.space/background/large/tt1851988/img",
-                    "description": "Ashwin, a famous photographer, works with Renuka, an investigative journalist. When one of their colleagues, Saro, gets killed during a political meet, Ashwin and Renuka decide to investigate.",
-                    "imdbRating": "7.9",
-                    "releaseInfo": "2011",
-                    "runtime": "2h 8m"
-                },
-                {
-                    "name": "Engeyum Eppodhum",
-                    "id": "tt2065924",
-                    "poster": "https://images.metahub.space/poster/large/tt2065924/img",
-                    "banner": "https://images.metahub.space/background/large/tt2065924/img",
-                    "description": "Amudha, a village girl visiting Chennai for the first time, falls in love with Gautham, a stranger, who shows her around the city. Kathiresan, a metal worker, is infatuated by Manimegalai, a nurse.",
+                    "name": "Kuttram Purindhavan",
+                    "id": "tt38568136",
+                    "poster": "https://images.metahub.space/poster/large/tt38568136/img",
+                    "banner": "https://images.metahub.space/background/large/tt38568136/img",
+                    "description": "When a girl vanishes in a small town, a retiring pharmacist, the child's mother, and a local cop become entangled in a web of secrets and guilt as they search for answers and confront hidden truths.",
                     "imdbRating": "7.8",
-                    "releaseInfo": "2011",
-                    "runtime": "2h 30m"
+                    "releaseInfo": null,
+                    "runtime": null
+                }
+            ]
+        },
+        {
+            "catalog_name": "best_series_of_2025",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "Mayasabha",
+                    "id": "tt36600023",
+                    "poster": "https://images.metahub.space/poster/large/tt36600023/img",
+                    "banner": "https://images.metahub.space/background/large/tt36600023/img",
+                    "description": "Two rival politicians from different backgrounds rise through Andhra Pradesh's power structure in the 1970s-80s. KKN and MSR navigate caste politics and personal ambition during a pivotal era in Indian history.",
+                    "imdbRating": "9.1",
+                    "releaseInfo": null,
+                    "runtime": null
                 },
                 {
-                    "name": "Mankatha",
-                    "id": "tt1705772",
-                    "poster": "https://images.metahub.space/poster/large/tt1705772/img",
-                    "banner": "https://images.metahub.space/background/large/tt1705772/img",
-                    "description": "Vinayak, a suspended cop, helps a group of four men rob cricket betting money amounting to 500 crores INR. When it comes to splitting the amount, betrayal hits the team hard and a chase ensues.",
-                    "imdbRating": "7.7",
-                    "releaseInfo": "2011",
-                    "runtime": "2h 35m"
+                    "name": "The Hunt: The Rajiv Gandhi Assassination Case",
+                    "id": "tt37365626",
+                    "poster": "https://images.metahub.space/poster/large/tt37365626/img",
+                    "banner": "https://images.metahub.space/background/large/tt37365626/img",
+                    "description": "In 1991, Rajiv Gandhi was killed by a suicide bomber at a campaign rally. A 90-day investigation revealed LTTE involvement, leading to arrests and convictions of conspirators.",
+                    "imdbRating": "7.9",
+                    "releaseInfo": null,
+                    "runtime": null
                 },
                 {
-                    "name": "Mayakkam Enna",
-                    "id": "tt2072167",
-                    "poster": "https://images.metahub.space/poster/large/tt2072167/img",
-                    "banner": "https://images.metahub.space/background/large/tt2072167/img",
-                    "description": "Karthik and Yamini can't stand each other, but there lies the twist when opposites attract.",
-                    "imdbRating": "7.7",
-                    "releaseInfo": "2011",
-                    "runtime": "2h 25m"
+                    "name": "Kuttram Purindhavan",
+                    "id": "tt38568136",
+                    "poster": "https://images.metahub.space/poster/large/tt38568136/img",
+                    "banner": "https://images.metahub.space/background/large/tt38568136/img",
+                    "description": "When a girl vanishes in a small town, a retiring pharmacist, the child's mother, and a local cop become entangled in a web of secrets and guilt as they search for answers and confront hidden truths.",
+                    "imdbRating": "7.8",
+                    "releaseInfo": null,
+                    "runtime": null
+                }
+            ]
+        },
+        {
+            "catalog_name": "best_series_of_2024",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "Heart Beat",
+                    "id": "tt31862809",
+                    "poster": "https://images.metahub.space/poster/large/tt31862809/img",
+                    "banner": "https://images.metahub.space/background/large/tt31862809/img",
+                    "description": "Based around RK Multispeciality Hospital and its doctors, who are resilient as they deal with medical and personal challenges.",
+                    "imdbRating": "8.6",
+                    "releaseInfo": null,
+                    "runtime": null
                 },
                 {
-                    "name": "Vaanam",
-                    "id": "tt1712057",
-                    "poster": "https://images.metahub.space/poster/large/tt1712057/img",
-                    "banner": "https://images.metahub.space/background/large/tt1712057/img",
-                    "description": "The lives of five individuals living in different places converge at a point, resulting in the transformation of their persona and purpose.",
-                    "imdbRating": "7.4",
-                    "releaseInfo": "2011",
-                    "runtime": "2h 20m"
+                    "name": "Chutney Sambar",
+                    "id": "tt28434030",
+                    "poster": "https://images.metahub.space/poster/large/tt28434030/img",
+                    "banner": "https://images.metahub.space/background/large/tt28434030/img",
+                    "description": "An orphaned street vendor unexpectedly becomes part of his wealthy half-brother's family, navigating the challenges of gaining acceptance in his new circumstances.",
+                    "imdbRating": "8.0",
+                    "releaseInfo": null,
+                    "runtime": null
                 },
                 {
-                    "name": "Kaavalan",
-                    "id": "tt1821478",
-                    "poster": "https://images.metahub.space/poster/large/tt1821478/img",
-                    "banner": "https://images.metahub.space/background/large/tt1821478/img",
-                    "description": "Meera starts calling bhoomi, her bodyguard just to fool him by telling him she loves him. Problems arise when bhoomi falls in love with her not knowing who she is.",
+                    "name": "Vikkatakavi",
+                    "id": "tt32047599",
+                    "poster": "https://images.metahub.space/poster/large/tt32047599/img",
+                    "banner": "https://images.metahub.space/background/large/tt32047599/img",
+                    "description": "1970s Amaragiri residents suffer a memory-robbing plague. Detective Rama Krishna investigates the mysterious affliction but risks falling victim himself.",
+                    "imdbRating": "7.3",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Inspector Rishi",
+                    "id": "tt31701070",
+                    "poster": "https://images.metahub.space/poster/large/tt31701070/img",
+                    "banner": "https://images.metahub.space/background/large/tt31701070/img",
+                    "description": "A skeptic crime branch Inspector Rishi Nandhan, assisted by two sub-inspectors Ayyanar and Chitra, investigates a series of bizarre murders in a small mountain village, supposedly committed by a deadly forest spirit called the Vanaratchi.",
+                    "imdbRating": "7.2",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Aindham Vedham",
+                    "id": "tt33983792",
+                    "poster": "https://images.metahub.space/poster/large/tt33983792/img",
+                    "banner": "https://images.metahub.space/background/large/tt33983792/img",
+                    "description": "Whilst in Varanasi for her mother's last rites, Anu is entrusted with an ancient relic by a stranger, destined for a Tamil Nadu priest, which may unveil the secrets of the elusive Fifth Veda.",
+                    "imdbRating": "7.2",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Jab Mila Tu",
+                    "id": "tt30836099",
+                    "poster": "https://images.metahub.space/poster/large/tt30836099/img",
+                    "banner": "https://images.metahub.space/background/large/tt30836099/img",
+                    "description": "When Maddy and Aneri find themselves sharing a home, things get chaotic . With Mint and Jigar joining the mix, their journey becomes a whirl wind of unpredictable adventures and camaraderie.",
+                    "imdbRating": "7.0",
+                    "releaseInfo": null,
+                    "runtime": null
+                }
+            ]
+        },
+        {
+            "catalog_name": "best_series_of_2023",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "Koose Munisamy Veerappan",
+                    "id": "tt30150229",
+                    "poster": "https://images.metahub.space/poster/large/tt30150229/img",
+                    "banner": "https://images.metahub.space/background/large/tt30150229/img",
+                    "description": "This six-episode docu series looks at what happened in the case of the legendary sandalwood smuggler, poacher and terrorist Veerappan. It uses footage archived by Nakkheeran Gopal, editor and publisher of the Tamil journal Nakkheeran.",
+                    "imdbRating": "9.0",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Ayali",
+                    "id": "tt25966494",
+                    "poster": "https://images.metahub.space/poster/large/tt25966494/img",
+                    "banner": "https://images.metahub.space/background/large/tt25966494/img",
+                    "description": "Young Tamizhselvi dreams of becoming a doctor. But her village, Veerappannai, has fearsome age-old customs and traditions which inadvertently suppress women of the village. Will she be able to overcome them?",
+                    "imdbRating": "8.5",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "The Hunt for Veerappan",
+                    "id": "tt28306965",
+                    "poster": "https://images.metahub.space/poster/large/tt28306965/img",
+                    "banner": "https://images.metahub.space/background/large/tt28306965/img",
+                    "description": "A poacher who conquered the jungles of South India and became the subject of the biggest manhunt of India.",
+                    "imdbRating": "7.9",
+                    "releaseInfo": "2023",
+                    "runtime": null
+                },
+                {
+                    "name": "Label",
+                    "id": "tt25965602",
+                    "poster": "https://images.metahub.space/poster/large/tt25965602/img",
+                    "banner": "https://images.metahub.space/background/large/tt25965602/img",
+                    "description": "Revolves around the protagonist struggle to reach his desired identity, overcoming the identity society has labelled him with.",
+                    "imdbRating": "7.3",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Sweet Kaaram Coffee",
+                    "id": "tt21908802",
+                    "poster": "https://images.metahub.space/poster/large/tt21908802/img",
+                    "banner": "https://images.metahub.space/background/large/tt21908802/img",
+                    "description": "Three women of different generations living in the same house, attempt for once, to put themselves ahead of the people they are bound by.",
+                    "imdbRating": "7.2",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Modern Love Chennai",
+                    "id": "tt21883062",
+                    "poster": "https://images.metahub.space/poster/large/tt21883062/img",
+                    "banner": "https://images.metahub.space/background/large/tt21883062/img",
+                    "description": "An eclectic bouquet of six love stories irrespective of race, age, class and gender in the city of Chennai.",
                     "imdbRating": "7.1",
-                    "releaseInfo": "2011",
-                    "runtime": "2h 35m"
+                    "releaseInfo": null,
+                    "runtime": null
+                }
+            ]
+        },
+        {
+            "catalog_name": "best_series_of_2022",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "Suzhal - the Vortex",
+                    "id": "tt20873118",
+                    "poster": "https://images.metahub.space/poster/large/tt20873118/img",
+                    "banner": "https://images.metahub.space/background/large/tt20873118/img",
+                    "description": "In a small South Indian town, a seemingly routine minor case explodes into a twisted crime thriller that rips apart its social fabric.",
+                    "imdbRating": "8.1",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Anantham",
+                    "id": "tt19733404",
+                    "poster": "https://images.metahub.space/poster/large/tt19733404/img",
+                    "banner": "https://images.metahub.space/background/large/tt19733404/img",
+                    "description": "Estranged son Ananth returns to his family home Anantham and goes on a journey down memory lane to find the stories of the wonder, betrayal, success, love, laughter, horror and courage of the different families and people who lived there.",
+                    "imdbRating": "8.1",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Vilangu",
+                    "id": "tt15716624",
+                    "poster": "https://images.metahub.space/poster/large/tt15716624/img",
+                    "banner": "https://images.metahub.space/background/large/tt15716624/img",
+                    "description": "Paridhi, an honest cop, must race against time to solve a mysterious crime case that has baffled the police department.",
+                    "imdbRating": "8.0",
+                    "releaseInfo": "2022",
+                    "runtime": null
+                },
+                {
+                    "name": "Vadhandhi: The Fable of Velonie",
+                    "id": "tt21908550",
+                    "poster": "https://images.metahub.space/poster/large/tt21908550/img",
+                    "banner": "https://images.metahub.space/background/large/tt21908550/img",
+                    "description": "The murder of a beautiful young girl, seen from the Rashomon-esque perspectives of an unrelenting obsessed cop, a novelist captivated by her grace and an opportunistic news editor.",
+                    "imdbRating": "8.0",
+                    "releaseInfo": null,
+                    "runtime": null
+                }
+            ]
+        },
+        {
+            "catalog_name": "best_series_of_2021",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "November Story",
+                    "id": "tt12299774",
+                    "poster": "https://images.metahub.space/poster/large/tt12299774/img",
+                    "banner": "https://images.metahub.space/background/large/tt12299774/img",
+                    "description": "A celebrated crime novelist suffering from Alzheimer's is found at a murder scene with no memory of what happened. Now, it is up to his daughter to save him.",
+                    "imdbRating": "7.6",
+                    "releaseInfo": null,
+                    "runtime": null
+                }
+            ]
+        },
+        {
+            "catalog_name": "best_series_of_2020",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "Paava Kadhaigal",
+                    "id": "tt13206988",
+                    "poster": "https://images.metahub.space/poster/large/tt13206988/img",
+                    "banner": "https://images.metahub.space/background/large/tt13206988/img",
+                    "description": "At times dark, at times disturbing, four short films explore stories of those who dare to dream and desire - and those determined to stand in their way.",
+                    "imdbRating": "8.0",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Triples",
+                    "id": "tt12299956",
+                    "poster": "https://images.metahub.space/poster/large/tt12299956/img",
+                    "banner": "https://images.metahub.space/background/large/tt12299956/img",
+                    "description": "Three besties, one dream caf\u00e9. It's anything but a cakewalk with shifty employees, angry politicians, crazy loan sharks and exes with whys.",
+                    "imdbRating": "7.0",
+                    "releaseInfo": null,
+                    "runtime": null
+                }
+            ]
+        },
+        {
+            "catalog_name": "best_series_of_2019",
+            "catalog_type": "series",
+            "catalog_items": [
+                {
+                    "name": "Cooku with Comali",
+                    "id": "tt13464516",
+                    "poster": "https://images.metahub.space/poster/large/tt13464516/img",
+                    "banner": "https://images.metahub.space/background/large/tt13464516/img",
+                    "description": "The host invites various personalities from the entertainment industry who team up with comedians and prepare delicious dishes to impress the judges.",
+                    "imdbRating": "9.2",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Iru Dhuruvam",
+                    "id": "tt11123072",
+                    "poster": "https://images.metahub.space/poster/large/tt11123072/img",
+                    "banner": "https://images.metahub.space/background/large/tt11123072/img",
+                    "description": "The series consists of hard-core police investigation stories dealing with investigation, detection and suspense.",
+                    "imdbRating": "7.8",
+                    "releaseInfo": null,
+                    "runtime": null
+                },
+                {
+                    "name": "Queen",
+                    "id": "tt11393148",
+                    "poster": "https://images.metahub.space/poster/large/tt11393148/img",
+                    "banner": "https://images.metahub.space/background/large/tt11393148/img",
+                    "description": "The Queen is a story of a woman in the male-driven worlds of Cinema and Tamil Nadu politics. It is a story of a woman who didn't get the happy ending she wanted and yet, was destiny's chosen child.",
+                    "imdbRating": "7.7",
+                    "releaseInfo": null,
+                    "runtime": null
                 }
             ]
         }
