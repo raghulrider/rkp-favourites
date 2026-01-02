@@ -1,6 +1,6 @@
 {
   "name": "rkp-favourites",
-  "version": "1.0.0",
+  "version": "0.1.2",
   "description": "Stremio catalog addon for RKP Favourites",
   "main": "server.js",
   "scripts": {

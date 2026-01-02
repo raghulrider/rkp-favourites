@@ -15,8 +15,11 @@ A Stremio catalog addon that provides curated collections of favorite movies and
 
 ```
 rkp-favourites/
+├── api/
+│   └── index.js                 # Vercel serverless function
 ├── src/
 │   ├── config/
+│   │   ├── addonConfig.js       # Addon configuration
 │   │   └── manifest.js          # Dynamic manifest generation
 │   ├── controllers/
 │   │   └── catalogController.js # Catalog request handlers
@@ -27,7 +30,9 @@ rkp-favourites/
 │   │   └── errors.js            # Custom error classes
 │   └── index.js                 # Addon builder setup
 ├── catalog_data.json            # Source catalog data
-├── server.js                    # HTTP server entry point
+├── server.js                    # HTTP server entry point (for Render/other platforms)
+├── start-with-tunnel.js         # Server with optional ngrok tunnel
+├── vercel.json                  # Vercel configuration
 ├── package.json
 ├── .env.example                 # Environment variables template
 └── README.md
@@ -289,9 +294,61 @@ The addon can be deployed to any Node.js hosting service:
 - The server will run directly on Render's provided port
 - Make sure `catalog_data.json` is committed to your repository (or use a different data source)
 
+### Vercel (Hobby/Free Tier)
+
+**Prerequisites:**
+- GitHub account
+- Vercel account (sign up at [vercel.com](https://vercel.com))
+
+**Deployment Steps:**
+
+1. **Push your code to GitHub:**
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git remote add origin your-github-repo-url
+   git push -u origin main
+   ```
+
+2. **Deploy to Vercel:**
+   - Go to [Vercel Dashboard](https://vercel.com/dashboard)
+   - Click "Add New..." → "Project"
+   - Import your GitHub repository
+   - Vercel will auto-detect the configuration from `vercel.json`
+   - Click "Deploy"
+
+3. **Set Environment Variables in Vercel:**
+   - Go to your project → Settings → Environment Variables
+   - Add the following variables (optional, defaults are used if not set):
+     - `ENVIRONMENT` = `production` (already set in vercel.json)
+     - `CATALOG_DATA_PATH` = `./catalog_data.json`
+     - `ADDON_ID` = `com.rkp.favourites`
+     - `ADDON_NAME` = `RKP Favourites`
+     - `ADDON_VERSION` = `0.2.0`
+     - `ADDON_DESCRIPTION` = (your description)
+     - `ADDON_LOGO` = (your logo URL)
+     - `ADDON_BACKGROUND` = (optional background URL)
+
+4. **Deploy:**
+   - Vercel will automatically build and deploy
+   - Your addon will be available at: `https://your-project-name.vercel.app/manifest.json`
+
+**Vercel Configuration:**
+- Uses serverless functions (no long-running server)
+- All requests are routed through `/api/index.js`
+- Includes `/healthz` endpoint for health checks
+- Automatic HTTPS and CDN
+- Free tier includes: 100GB bandwidth, unlimited requests (with usage limits)
+
+**Note:**
+- Vercel uses serverless functions, so there may be cold starts on first request
+- `catalog_data.json` must be committed to your repository
+- The addon interface and manifest are cached for performance
+- Health check available at: `https://your-project-name.vercel.app/healthz`
+
 ### Other Hosting Options
 
-- **Vercel** - Easy deployment
 - **Heroku** - Free tier available
 - **cloudno.de** - Free for up to 150k requests/month
 - **Evennode** - 7-day free trial
