@@ -14,15 +14,13 @@ class CatalogService {
     this.catalogMap = new Map(); // Map for quick lookup: "type:id" -> catalog
     this.initialized = false;
     this.dataPath = null;
-    this.fileWatcher = null;
   }
 
   /**
    * Load catalog data from JSON file
    * @param {string} dataPath - Path to catalog_data.json
-   * @param {boolean} watchForChanges - Whether to watch for file changes (default: true)
    */
-  loadCatalogData(dataPath, watchForChanges = true) {
+  loadCatalogData(dataPath) {
     try {
       // Try multiple path resolution strategies for different environments
       let absolutePath = null;
@@ -67,12 +65,7 @@ class CatalogService {
       this.dataPath = absolutePath;
       logger.info(`Loading catalog data from: ${absolutePath}`);
 
-      this._reloadCatalogData();
-
-      // Set up file watcher if requested (skip in serverless environments)
-      if (watchForChanges && process.env.VERCEL !== '1') {
-        this._setupFileWatcher(absolutePath);
-      }
+      this._loadDataFromFile();
 
       return true;
     } catch (error) {
@@ -82,10 +75,10 @@ class CatalogService {
   }
 
   /**
-   * Reload catalog data from file
+   * Load catalog data from file
    * @private
    */
-  _reloadCatalogData() {
+  _loadDataFromFile() {
     try {
       if (!this.dataPath || !fs.existsSync(this.dataPath)) {
         throw new Error(`Catalog data file not found: ${this.dataPath}`);
@@ -104,62 +97,8 @@ class CatalogService {
 
       logger.info(`Successfully loaded ${data.catalogs.length} catalogs`);
     } catch (error) {
-      logger.error('Failed to reload catalog data:', error.message);
-      // Don't throw - keep using old data if reload fails
-      if (!this.initialized) {
-        throw new DataLoadError(error.message, error);
-      }
-    }
-  }
-
-  /**
-   * Set up file watcher for automatic reloading
-   * @private
-   */
-  _setupFileWatcher(filePath) {
-    // Stop existing watcher if any
-    if (this.fileWatcher) {
-      this.fileWatcher.close();
-      this.fileWatcher = null;
-    }
-
-    try {
-      // Watch for file changes
-      this.fileWatcher = fs.watch(filePath, { persistent: true }, (eventType, filename) => {
-        if (eventType === 'change' && filename) {
-          logger.info(`Catalog data file changed (${filename}), reloading...`);
-          
-          // Debounce: wait a bit before reloading to avoid multiple rapid reloads
-          if (this._reloadTimeout) {
-            clearTimeout(this._reloadTimeout);
-          }
-          
-          this._reloadTimeout = setTimeout(() => {
-            this._reloadCatalogData();
-            logger.info('Catalog data reloaded successfully');
-          }, 1000); // Wait 1 second after last change
-        }
-      });
-
-      logger.info(`File watcher set up for: ${filePath}`);
-    } catch (error) {
-      logger.warn(`Failed to set up file watcher: ${error.message}`);
-      logger.warn('Catalog data will not auto-reload. Restart the server to load changes.');
-    }
-  }
-
-  /**
-   * Stop file watcher
-   */
-  stopWatching() {
-    if (this.fileWatcher) {
-      this.fileWatcher.close();
-      this.fileWatcher = null;
-      logger.info('File watcher stopped');
-    }
-    if (this._reloadTimeout) {
-      clearTimeout(this._reloadTimeout);
-      this._reloadTimeout = null;
+      logger.error('Failed to load catalog data:', error.message);
+      throw new DataLoadError(error.message, error);
     }
   }
 
@@ -219,15 +158,52 @@ class CatalogService {
   }
 
   /**
+   * Get unique genres for a specific catalog
+   * @param {string} type - Content type (e.g., "movie", "series")
+   * @param {string} catalogId - Catalog ID (catalog_name from JSON)
+   * @returns {Array} Array of unique genre strings, sorted alphabetically
+   */
+  getCatalogGenres(type, catalogId) {
+    if (!this.initialized || !this.catalogData) {
+      throw new DataLoadError('Catalog data not initialized');
+    }
+
+    const key = `${type}:${catalogId}`;
+    const catalog = this.catalogMap.get(key);
+
+    if (!catalog || !Array.isArray(catalog.catalog_items)) {
+      return [];
+    }
+
+    const genres = new Set();
+    catalog.catalog_items.forEach((item) => {
+      if (Array.isArray(item.genres)) {
+        item.genres.forEach((genre) => {
+          if (genre && typeof genre === 'string') {
+            genres.add(genre.trim());
+          }
+        });
+      }
+    });
+
+    // Return sorted array of unique genres
+    return Array.from(genres).sort();
+  }
+
+  /**
    * Get catalog items for a specific type and catalog ID
    * @param {string} type - Content type (e.g., "movie", "series")
    * @param {string} catalogId - Catalog ID (catalog_name from JSON)
-   * @param {Object} pagination - Pagination options
-   * @param {number} pagination.skip - Number of items to skip (default: 0)
-   * @param {number} pagination.limit - Maximum number of items to return (default: all)
+   * @param {Object} options - Options object (or pagination object for backward compatibility)
+   * @param {Object} options.pagination - Pagination options (if options has pagination property)
+   * @param {number} options.pagination.skip - Number of items to skip (default: 0)
+   * @param {number} options.pagination.limit - Maximum number of items to return (default: all)
+   * @param {string} options.genre - Genre filter (optional)
+   * @param {number} options.skip - Number of items to skip (backward compatibility, if pagination not nested)
+   * @param {number} options.limit - Maximum number of items to return (backward compatibility, if pagination not nested)
    * @returns {Array} Array of Stremio meta objects
    */
-  getCatalogItems(type, catalogId, pagination = {}) {
+  getCatalogItems(type, catalogId, options = {}) {
     if (!this.initialized) {
       throw new DataLoadError('Catalog data not initialized');
     }
@@ -245,8 +221,35 @@ class CatalogService {
       return [];
     }
 
+    // Extract options - handle both new format (options.pagination) and old format (options directly)
+    let pagination, genre;
+    if (options.pagination && typeof options.pagination === 'object') {
+      // New format: { pagination: { skip, limit }, genre: ... }
+      pagination = options.pagination;
+      genre = options.genre || null;
+    } else {
+      // Old format: { skip, limit } or backward compatibility
+      pagination = options;
+      genre = null;
+    }
+
+    // Filter items by genre if genre is specified
+    let catalogItems = catalog.catalog_items;
+    if (genre && typeof genre === 'string') {
+      const genreLower = genre.trim().toLowerCase();
+      catalogItems = catalogItems.filter((item) => {
+        if (!Array.isArray(item.genres)) {
+          return false;
+        }
+        return item.genres.some(
+          (itemGenre) => itemGenre && itemGenre.trim().toLowerCase() === genreLower
+        );
+      });
+      logger.debug(`Filtered ${catalog.catalog_items.length} items to ${catalogItems.length} items for genre: ${genre}`);
+    }
+
     // Transform catalog items to Stremio meta format
-    let items = catalog.catalog_items.map((item) => this._transformToStremioMeta(item, type));
+    let items = catalogItems.map((item) => this._transformToStremioMeta(item, type));
 
     // Apply pagination
     const skip = pagination.skip || 0;

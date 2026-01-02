@@ -16,7 +16,9 @@ try {
   // Build the addon
   const addonInterface = buildAddon();
 
-  // Start HTTP server
+  // Start HTTP server using serveHTTP
+  // Note: serveHTTP creates its own Express server, so custom routes like /healthz
+  // need to be added through the addon interface if supported, or use a separate server
   serveHTTP(addonInterface, { port: PORT }, (err, url) => {
     if (err) {
       logger.error('Failed to start server:', err.message);
@@ -26,6 +28,7 @@ try {
     logger.info(`Stremio addon server running on port ${PORT}`);
     logger.info(`Addon manifest available at: ${url}/manifest.json`);
     logger.info(`Add this URL to Stremio: ${url}/manifest.json`);
+    logger.info(`Note: /healthz endpoint is available in Vercel deployment via /api/index.js`);
   });
 } catch (error) {
   logger.error('Failed to initialize addon:', error.message);

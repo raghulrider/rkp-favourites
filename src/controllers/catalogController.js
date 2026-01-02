@@ -43,6 +43,7 @@ async function handleCatalogRequest(args) {
     // Extract pagination parameters from extra
     let skip = extra?.skip ? parseInt(extra.skip, 10) : 0;
     let limit = extra?.limit ? parseInt(extra.limit, 10) : undefined;
+    const genre = extra?.genre || null;
 
     // Validate pagination parameters
     if (isNaN(skip) || skip < 0) {
@@ -54,16 +55,21 @@ async function handleCatalogRequest(args) {
       limit = undefined;
     }
 
-    // Get catalog items with pagination
-    const pagination = { skip, limit };
-    const items = catalogService.getCatalogItems(type, id, pagination);
+    // Get catalog items with pagination and genre filter
+    const options = {
+      pagination: { skip, limit },
+      genre: genre,
+    };
+    const items = catalogService.getCatalogItems(type, id, options);
 
     if (items.length === 0) {
-      logger.warn(`No items found for catalog: ${type}/${id} (skip: ${skip}, limit: ${limit})`);
+      const filterInfo = genre ? `genre: ${genre}, ` : '';
+      logger.warn(`No items found for catalog: ${type}/${id} (${filterInfo}skip: ${skip}, limit: ${limit || 'none'})`);
       return Promise.resolve({ metas: [] });
     }
 
-    logger.info(`Returning ${items.length} items for catalog: ${type}/${id} (skip: ${skip}, limit: ${limit || 'none'})`);
+    const filterInfo = genre ? `genre: ${genre}, ` : '';
+    logger.info(`Returning ${items.length} items for catalog: ${type}/${id} (${filterInfo}skip: ${skip}, limit: ${limit || 'none'})`);
 
     return Promise.resolve({
       metas: items,

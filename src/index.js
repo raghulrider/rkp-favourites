@@ -34,7 +34,7 @@ function buildAddon(config = {}) {
 
     const manifest = generateManifest(manifestConfig);
 
-    // Create addon builder
+    // Create addon builder instance
     const builder = new addonBuilder(manifest);
 
     // Register catalog handler
@@ -46,9 +46,10 @@ function buildAddon(config = {}) {
     logger.info(`Supported Types: ${manifest.types.join(', ')}`);
     logger.info(`Total Catalogs: ${manifest.catalogs.length}`);
 
+    // Return the addon interface
     return builder.getInterface();
   } catch (error) {
-    logger.error('Failed to build addon:', error.message);
+    logger.error('Failed to build addon:', error.message || error.toString() || String(error));
     throw error;
   }
 }

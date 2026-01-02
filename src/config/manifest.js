@@ -37,17 +37,44 @@ function generateManifest(config) {
 
     // Build catalogs array for manifest
     // Include 'skip' in extra to enable pagination support
-    const manifestCatalogs = catalogs.map((catalog) => ({
-      type: catalog.catalog_type,
-      id: catalog.catalog_name,
-      name: formatCatalogName(catalog.catalog_name),
-      extra: [
+    // Include 'genre' in extra with dynamic options for each catalog
+    const manifestCatalogs = catalogs.map((catalog) => {
+      const extra = [
         {
           name: 'skip',
           isRequired: false,
         },
-      ],
-    }));
+      ];
+
+      // Get unique genres for this catalog
+      // try {
+      //   const genres = catalogService.getCatalogGenres(
+      //     catalog.catalog_type,
+      //     catalog.catalog_name
+      //   );
+
+      //   // Only add genre filter if there are genres available
+      //   if (genres.length > 0) {
+      //     extra.push({
+      //       name: 'genre',
+      //       isRequired: false,
+      //       options: genres,
+      //     });
+      //   }
+      // } catch (error) {
+      //   logger.warn(
+      //     `Failed to get genres for catalog ${catalog.catalog_type}/${catalog.catalog_name}: ${error.message}`
+      //   );
+      //   // Continue without genre filter if there's an error
+      // }
+
+      return {
+        type: catalog.catalog_type,
+        id: catalog.catalog_name,
+        name: formatCatalogName(catalog.catalog_name),
+        extra,
+      };
+    });
 
     // Validate required config
     if (!config.addonId) {
