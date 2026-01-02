@@ -8,15 +8,62 @@ const { handleCatalogRequest } = require('../src/controllers/catalogController')
 const { generateManifest } = require('../src/config/manifest');
 const addonConfig = require('../src/config/addonConfig');
 const logger = require('../src/utils/logger');
+const path = require('path');
+const fs = require('fs');
 
 // Cache the addon interface and manifest
 let cachedAddonInterface = null;
 let cachedManifest = null;
 
+/**
+ * Resolve catalog data path for Vercel serverless environment
+ */
+function resolveCatalogDataPath() {
+  const configPath = addonConfig.catalogDataPath || './catalog_data.json';
+  
+  // In Vercel, process.cwd() is typically /var/task/
+  // The file should be at the project root
+  const cwd = process.cwd();
+  logger.info(`Current working directory: ${cwd}`);
+  logger.info(`__dirname: ${__dirname}`);
+  
+  // Try multiple resolution strategies
+  const pathsToTry = [
+    // 1. From process.cwd() (most common in Vercel: /var/task/catalog_data.json)
+    path.join(cwd, 'catalog_data.json'),
+    // 2. Relative to API function directory (api/../catalog_data.json)
+    path.resolve(__dirname, '..', 'catalog_data.json'),
+    // 3. From config path relative to cwd
+    path.isAbsolute(configPath) ? configPath : path.join(cwd, configPath.replace(/^\.\//, '')),
+    // 4. Try just the filename in cwd
+    path.join(cwd, path.basename(configPath)),
+    // 5. Absolute path if provided
+    configPath.startsWith('/') ? configPath : null,
+  ].filter(Boolean);
+  
+  logger.info(`Trying to find catalog_data.json in: ${pathsToTry.join(', ')}`);
+  
+  for (const tryPath of pathsToTry) {
+    if (fs.existsSync(tryPath)) {
+      logger.info(`✓ Found catalog data at: ${tryPath}`);
+      return tryPath;
+    } else {
+      logger.debug(`✗ Not found: ${tryPath}`);
+    }
+  }
+  
+  // If none found, throw a detailed error
+  const errorMsg = `Catalog data file not found. Searched in:\n${pathsToTry.map(p => `  - ${p}`).join('\n')}\nCurrent working directory: ${cwd}\n__dirname: ${__dirname}`;
+  logger.error(errorMsg);
+  throw new Error(errorMsg);
+}
+
 function getAddonInterface() {
   if (!cachedAddonInterface) {
     try {
-      cachedAddonInterface = buildAddon();
+      // Resolve catalog data path for Vercel environment
+      const catalogDataPath = resolveCatalogDataPath();
+      cachedAddonInterface = buildAddon({ catalogDataPath });
       logger.info('Addon built successfully for Vercel');
     } catch (error) {
       logger.error('Failed to build addon:', error.message);

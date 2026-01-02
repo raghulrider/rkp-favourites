@@ -349,9 +349,18 @@ The addon can be deployed to any Node.js hosting service:
 
 **Note:**
 - Vercel uses serverless functions, so there may be cold starts on first request
-- `catalog_data.json` must be committed to your repository
+- `catalog_data.json` must be committed to your repository (not in `.gitignore`)
+- The file will be automatically included in the deployment
+- If you get a "file not found" error, check that `catalog_data.json` is in the repository root
 - The addon interface and manifest are cached for performance
 - Health check available at: `https://your-project-name.vercel.app/healthz`
+
+**Troubleshooting:**
+- If you see "Catalog data file not found" error, verify:
+  1. `catalog_data.json` is committed to your Git repository
+  2. The file is in the repository root (same level as `package.json`)
+  3. The file is not in `.gitignore`
+  4. Check Vercel build logs to see if the file is being included
 
 ### Other Hosting Options
 

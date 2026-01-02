@@ -24,19 +24,53 @@ class CatalogService {
    */
   loadCatalogData(dataPath, watchForChanges = true) {
     try {
-      const absolutePath = path.resolve(dataPath);
-      this.dataPath = absolutePath;
+      // Try multiple path resolution strategies for different environments
+      let absolutePath = null;
       
-      logger.info(`Loading catalog data from: ${absolutePath}`);
-
-      if (!fs.existsSync(absolutePath)) {
-        throw new Error(`Catalog data file not found: ${absolutePath}`);
+      // Strategy 1: Resolve relative to current working directory
+      const resolvedFromCwd = path.resolve(dataPath);
+      if (fs.existsSync(resolvedFromCwd)) {
+        absolutePath = resolvedFromCwd;
+      } else {
+        // Strategy 2: Resolve relative to this file's directory (for serverless)
+        const resolvedFromModule = path.resolve(__dirname, '../../', dataPath);
+        if (fs.existsSync(resolvedFromModule)) {
+          absolutePath = resolvedFromModule;
+        } else {
+          // Strategy 3: Try absolute path if provided
+          if (path.isAbsolute(dataPath) && fs.existsSync(dataPath)) {
+            absolutePath = dataPath;
+          } else {
+            // Strategy 4: Try from process.cwd() with different relative paths
+            const cwd = process.cwd();
+            const pathsToTry = [
+              path.join(cwd, dataPath),
+              path.join(cwd, path.basename(dataPath)), // Just filename
+              path.resolve(cwd, '..', dataPath),
+              path.resolve(cwd, '..', path.basename(dataPath)),
+            ];
+            
+            for (const tryPath of pathsToTry) {
+              if (fs.existsSync(tryPath)) {
+                absolutePath = tryPath;
+                break;
+              }
+            }
+          }
+        }
       }
+      
+      if (!absolutePath || !fs.existsSync(absolutePath)) {
+        throw new Error(`Catalog data file not found. Tried: ${dataPath}, resolved from cwd: ${path.resolve(dataPath)}, cwd: ${process.cwd()}`);
+      }
+      
+      this.dataPath = absolutePath;
+      logger.info(`Loading catalog data from: ${absolutePath}`);
 
       this._reloadCatalogData();
 
-      // Set up file watcher if requested
-      if (watchForChanges) {
+      // Set up file watcher if requested (skip in serverless environments)
+      if (watchForChanges && process.env.VERCEL !== '1') {
         this._setupFileWatcher(absolutePath);
       }
 
