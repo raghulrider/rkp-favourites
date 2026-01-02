@@ -315,7 +315,13 @@ The addon can be deployed to any Node.js hosting service:
    - Go to [Vercel Dashboard](https://vercel.com/dashboard)
    - Click "Add New..." → "Project"
    - Import your GitHub repository
-   - Vercel will auto-detect the configuration from `vercel.json`
+   - Configure the project settings:
+     - **Framework Preset:** `Other` (or leave as auto-detected)
+     - **Root Directory:** `./` (default)
+     - **Build and Output Settings:**
+       - **Build Command:** Leave empty or set to `npm install` (no build step needed for serverless functions)
+       - **Output Directory:** `.` (current directory)
+       - **Install Command:** `npm install` (or leave default - Vercel will auto-detect)
    - Click "Deploy"
 
 3. **Set Environment Variables in Vercel:**

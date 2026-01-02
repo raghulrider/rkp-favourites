@@ -1,7 +1,5 @@
 {
   "version": 2,
-  "buildCommand": "npm install --omit=dev",
-  "installCommand": "npm install",
   "framework": null,
   "rewrites": [
     {
