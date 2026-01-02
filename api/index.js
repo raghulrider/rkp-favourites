@@ -14,6 +14,7 @@ const fs = require('fs');
 // Cache the addon interface and manifest
 let cachedAddonInterface = null;
 let cachedManifest = null;
+let initializationPromise = null; // Promise to track initialization
 
 /**
  * Resolve catalog data path for Vercel serverless environment
@@ -58,26 +59,41 @@ function resolveCatalogDataPath() {
   throw new Error(errorMsg);
 }
 
-function getAddonInterface() {
-  if (!cachedAddonInterface) {
+async function getAddonInterface() {
+  // If already initialized, return immediately
+  if (cachedAddonInterface) {
+    return cachedAddonInterface;
+  }
+  
+  // If initialization is in progress, wait for it
+  if (initializationPromise) {
+    return await initializationPromise;
+  }
+  
+  // Start initialization (synchronized to prevent race conditions)
+  initializationPromise = (async () => {
     try {
       // Resolve catalog data path for Vercel environment
       const catalogDataPath = resolveCatalogDataPath();
       cachedAddonInterface = buildAddon({ catalogDataPath });
       logger.info('Addon built successfully for Vercel');
+      return cachedAddonInterface;
     } catch (error) {
       logger.error('Failed to build addon:', error.message);
+      // Reset promise on error so we can retry
+      initializationPromise = null;
       throw error;
     }
-  }
-  return cachedAddonInterface;
+  })();
+  
+  return await initializationPromise;
 }
 
-function getManifest() {
+async function getManifest() {
   if (!cachedManifest) {
     try {
       // Ensure addon is built first (this initializes catalog service)
-      getAddonInterface();
+      await getAddonInterface();
       
       // Now generate manifest
       const manifestConfig = {
@@ -124,9 +140,17 @@ module.exports = async (req, res) => {
     
     // Handle manifest request
     if (path === '/manifest.json' || path === '/manifest.json/') {
-      const manifest = getManifest();
-      res.setHeader('Content-Type', 'application/json');
-      return res.status(200).json(manifest);
+      try {
+        // Ensure addon is initialized before getting manifest
+        await getAddonInterface();
+        const manifest = await getManifest();
+        res.setHeader('Content-Type', 'application/json');
+        return res.status(200).json(manifest);
+      } catch (error) {
+        logger.error('Error getting manifest:', error.message);
+        res.setHeader('Content-Type', 'application/json');
+        return res.status(500).json({ error: 'Failed to load manifest', message: error.message });
+      }
     }
     
     // Handle catalog requests: /catalog/{type}/{id}.json
@@ -136,12 +160,15 @@ module.exports = async (req, res) => {
       const extra = req.query || {};
       
       try {
+        // Ensure addon is initialized before handling catalog request
+        await getAddonInterface();
         const result = await handleCatalogRequest({ type, id, extra });
         res.setHeader('Content-Type', 'application/json');
         return res.status(200).json(result);
       } catch (error) {
         logger.error(`Error handling catalog request ${type}/${id}:`, error.message);
         res.setHeader('Content-Type', 'application/json');
+        // Return empty array on error (Stremio expects valid response)
         return res.status(200).json({ metas: [] });
       }
     }
